@@ -1,0 +1,28 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.Menu {
+    /* display: flex; */
+    width: 260px;
+    flex-basis: 15%;
+    background: linear-gradient(to top, #3a3a3b, #3a3a3b);
+    height: 100%;
+    z-index: 1;
+    -webkit-box-shadow: 4px 0px 17px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 0px 17px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 0px 17px -5px rgba(0, 0, 0, 0.75);
+}
+
+.nav-item  a{
+    color: white !important;
+    background-color: #3a3a3b;
+}
+.nav-item  a:hover{
+   color: white !important;
+   background-color: #3a3a3b;
+}
+.dropdown-menu {
+   background-color: #3a3a3b !important;
+}
+

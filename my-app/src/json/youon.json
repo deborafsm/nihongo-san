@@ -1,0 +1,200 @@
+[
+    {
+        "id": "1",
+        "hiragana": "ゃ",
+        "romaji": "ya"
+    },
+    {
+        "id": "2",
+        "hiragana": "ゅ",
+        "romaji": "yu"
+    },
+    {
+        "id": "3",
+        "hiragana": "ょ",
+        "romaji": "yo"
+    },
+    {
+        "id": "4",
+        "hiragana": "きゃ",
+        "romaji": "kya"
+    },
+    {
+        "id": "5",
+        "hiragana": "きゅ",
+        "romaji": "kyu"
+    },
+    {
+        "id": "6",
+        "hiragana": "きょ",
+        "romaji": "kyo"
+    },
+    {
+        "id": "7",
+        "hiragana": "しゃ",
+        "romaji": "sha"
+    },
+    {
+        "id": "8",
+        "hiragana": "しゅ",
+        "romaji": "shu"
+    },
+    {
+        "id": "9",
+        "hiragana": "しょ",
+        "romaji": "sho"
+    },
+    {
+        "id": "10",
+        "hiragana": "ちゃ",
+        "romaji": "cha"
+    },
+    {
+        "id": "11",
+        "hiragana": "ちゅ",
+        "romaji": "chu"
+    },
+    {
+        "id": "12",
+        "hiragana": "ちょ",
+        "romaji": "cho"
+    },
+    {
+        "id": "13",
+        "hiragana": "にゃ",
+        "romaji": "nya"
+    },
+    {
+        "id": "14",
+        "hiragana": "にゅ",
+        "romaji": "nyu"
+    },
+    {
+        "id": "15",
+        "hiragana": "にょ",
+        "romaji": "nyo"
+    },
+   
+    {
+        "id": "16",
+        "hiragana": "ひゃ",
+        "romaji": "hya"
+    },
+    {
+        "id": "17",
+        "hiragana": "ひゅ",
+        "romaji": "hyu"
+    },
+    {
+        "id": "18",
+        "hiragana": "ひょ",
+        "romaji": "hyo"
+    },
+    {
+        "id": "19",
+        "hiragana": "みゃ",
+        "romaji": "mya"
+    },
+    {
+        "id": "20",
+        "hiragana": "みゅ",
+        "romaji": "myu"
+    },
+   
+    {
+        "id": "21",
+        "hiragana": "みょ",
+        "romaji": "myo"
+    },
+    {
+        "id": "22",
+        "hiragana": "りゃ",
+        "romaji": "rya"
+    },
+    {
+        "id": "23",
+        "hiragana": "りゅ",
+        "romaji": "ryu"
+    },
+    {
+        "id": "24",
+        "hiragana": "りょ",
+        "romaji": "ryo"
+    },
+    {
+        "id": "25",
+        "hiragana": "ぎゃ",
+        "romaji": "gya"
+    },
+    {
+        "id": "26",
+        "hiragana": "ぎゅ",
+        "romaji": "gyu"
+    },
+    {
+        "id": "27",
+        "hiragana": "ぎょ",
+        "romaji": "gyo"
+    },
+    {
+        "id": "28",
+        "hiragana": "じゃ",
+        "romaji": "ja"
+    },
+    {
+        "id": "29",
+        "hiragana": "じゅ",
+        "romaji": "ju"
+    },
+    {
+        "id": "30",
+        "hiragana": "じょ",
+        "romaji": "jo"
+    },
+    {
+        "id": "31",
+        "hiragana": "ぢゃ",
+        "romaji": "dya"
+    },
+    {
+        "id": "32",
+        "hiragana": "ぢゅ",
+        "romaji": "dyu"
+    },
+    {
+        "id": "33",
+        "hiragana": "ぢょ",
+        "romaji": "dyo"
+    },
+    {
+        "id": "34",
+        "hiragana": "びゃ",
+        "romaji": "bya"
+    },
+    {
+        "id": "35",
+        "hiragana": "びゅ",
+        "romaji": "byu"
+    },   
+    {
+        "id": "36",
+        "hiragana": "びょ",
+        "romaji": "byo"
+    },   
+    {
+        "id": "37",
+        "hiragana": "ぴゃ",
+        "romaji": "pya"
+    },   
+    
+    {
+        "id": "38",
+        "hiragana": "ぴゅ",
+        "romaji": "pyu"
+    },  
+    {
+        "id": "39",
+        "hiragana": "ぴょ",
+        "romaji": "pyo"
+    }
+]

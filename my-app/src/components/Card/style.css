@@ -1,0 +1,47 @@
+:root{
+    --color-primary:#13141f;
+    --color-secondary:crimson;
+    --color-text-light: #ffffff;
+    --color-text-dark:#000;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    
+
+}
+.card_conteudo{
+    max-width: 350px;
+    min-width: 150px;
+    margin: 0 auto;
+    position: relative;
+
+    aspect-ratio: 1/1;
+    transform-style: preserve-3d;
+    transition: transform 600ms ease-in;
+}
+.card_conteudo--flipped{
+    transform: rotateY(180deg);
+}
+.card_face{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.card_face--front{
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    font-size: 8em;
+}
+.card_face--back{
+    background-color: var(--color-secondary);
+    color: var(--color-text-dark);
+    transform: rotateY(180deg);
+    font-size: 8em;
+}
