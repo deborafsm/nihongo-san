@@ -8,6 +8,7 @@ import Digrafos from '../pages/CardDigrafos'
 import Germinados from '../pages/CardGerminados.jsx'
 import Cores from '../pages/cardColor'
 import MemoryGame from '../pages/MemoryGame.jsx'
+import Particulas from '../pages/Particulas.jsx'
 
 const Rotas = () => (
   <Layout>
