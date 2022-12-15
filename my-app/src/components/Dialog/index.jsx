@@ -1,10 +1,16 @@
 import React, { useState } from "react";
-
-function Dialog() {
+import style from "./style.css";
+function Dialog(props) {
   return (
     <>
-      <div>
-        <h1>Wa【は】</h1>
+    <br />
+      <div className="frase-style">
+        <div className="frase-style-hiragana">
+          {/* <p>わたしはぶらじるじんです</p> */}
+          <p>{props.text}</p>
+        </div>
+        {/* <p>私はブラジル人です</p> */}
+        <p>{props.fraseh}</p>
       </div>
     </>
   );

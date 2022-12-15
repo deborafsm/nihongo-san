@@ -1,0 +1,8 @@
+.frase-style p{
+    font-size: 1.4em;
+    font-weight: 900;
+}
+.frase-style-hiragana p{
+    font-size: 0.9em;
+    font-weight: 100;
+}

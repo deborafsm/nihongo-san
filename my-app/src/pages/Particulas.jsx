@@ -1,3 +1,4 @@
+import Dialog from "../components/Dialog";
 function Particulas() {
   return (
     <>
@@ -9,6 +10,7 @@ function Particulas() {
           Ou seja sobre quem está falando ou quem ira realizar a ação.
         </p>
       </div>
+      <Dialog text="わたしはぶらじるじんです" fraseh="私はブラジル人です" />
     </>
   );
 }
