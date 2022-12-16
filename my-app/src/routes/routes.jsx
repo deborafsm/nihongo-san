@@ -9,6 +9,7 @@ import Germinados from "../pages/CardGerminados.jsx";
 import Cores from "../pages/cardColor";
 import MemoryGame from "../pages/MemoryGame.jsx";
 import Particulas from "../pages/Particulas.jsx";
+import ParticulaGame from "../pages/ParticulaGame.jsx";
 
 const Rotas = () => (
   <Layout>
@@ -19,7 +20,8 @@ const Rotas = () => (
       <Route path="/germinados" element={<Germinados />} />
       <Route path="/cores" element={<Cores />} />
       <Route path="/game" element={<MemoryGame />} />
-      <Route path="/particula" element={<Particulas/>}></Route>
+      <Route path="/particula" element={<Particulas/>}></Route> 
+      <Route path="/particula-game" element={<ParticulaGame/>}></Route> 
     </Routes>
   </Layout>
 );

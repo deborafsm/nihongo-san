@@ -41,5 +41,11 @@ export const SideData = [
     path: "/particula",
     icon: <FaInfoCircle />,
     cName: "nav-text",
+  },
+  {
+    title: "Que Particula é essa ",
+    path: "/particula-game",
+    icon: <FaInfoCircle />,
+    cName: "nav-text",
   }
 ];
