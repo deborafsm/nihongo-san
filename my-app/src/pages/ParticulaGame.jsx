@@ -1,13 +1,71 @@
+import { useState } from "react";
+const questoes = [
+  {
+    questText: "Qual é a particula ?",
+    opcoesQuest: [
+      { respQuest: "Mo", isCorrect: false },
+      { respQuest: "Wa", isCorrect: true },
+      { respQuest: "Ga", isCorrect: false },
+    ],
+  },
+  {
+    questText: "Qual é a particula  Wa?",
+    opcoesQuest: [
+      { respQuest: "Mo", isCorrect: false },
+      { respQuest: "Wa", isCorrect: true },
+      { respQuest: "Ga", isCorrect: false },
+    ],
+  },
+];
 function ParticulaGame() {
+  // Mostra Score do jogo
+  const [mostraScore, setMostraScore] = useState(false);
+  //   Score atual
+  const [score, setScore] = useState(0);
+  //   Questão Atual
+  const [questaoAtual, setQuestaoAtual] = useState(0);
+
+  function handleRespostaQuestao(isCorrect) {
+    if (isCorrect) {
+      // Acresce o ponto no score
+      setScore(score + 1);
+    }
+
+    const proximaQuestao = questaoAtual + 1;
+    if (proximaQuestao < questoes.length) {
+      setQuestaoAtual(proximaQuestao);
+    } else {
+      setMostraScore(true);
+    }
+  }
   return (
     <>
       <div>
-        <h1>Qual é a particula ?</h1>
-        <p>Miki-san () gakusei desu.</p>
-        <p>1 - mo</p>
-        <p>2 - wa</p>
-        <p>3 - ga</p>
-        <button>ENVIAR</button>
+        {mostraScore ? (
+          <div>
+            <p>
+              Você pontuou {score} de {questoes.length}
+            </p>
+          </div>
+        ) : (
+          <>
+            <div>
+              {/* Contagem das questões */}
+              <span>Questão {questaoAtual + 1}</span> / {questoes.length}
+            </div>
+            <h1>{questoes[questaoAtual].questText}</h1>
+            <div>
+              {questoes[questaoAtual].opcoesQuest.map((opcaoQuest, index) => (
+                <p
+                  onClick={() => handleRespostaQuestao(opcaoQuest.isCorrect)}
+                  key={index}
+                >
+                  {opcaoQuest.respQuest}
+                </p>
+              ))}
+            </div>
+          </>
+        )}
       </div>
     </>
   );
