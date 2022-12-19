@@ -1,0 +1,9 @@
+.container-anwser {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;  
+  width: 100%;
+  height: auto;
+  padding: 15px 15px 15px 20px;
+  
+}

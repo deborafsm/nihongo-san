@@ -1,4 +1,5 @@
 import { useState } from "react";
+import style from './style.css'
 const questoes = [
   {
     questText: "Qual é a particula ?",
@@ -40,7 +41,7 @@ function QuestionGame() {
   }
   return (
     <>
-      <div>
+      <div className="container-anwser">
         {mostraScore ? (
           <div className="anwser-score">
             <p>

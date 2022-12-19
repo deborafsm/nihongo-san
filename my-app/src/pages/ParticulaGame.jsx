@@ -1,4 +1,4 @@
-import QuestionGame from '../components/Questions/questions'
+import QuestionGame from '../components/Questions/questionsParticulas'
 function ParticulaGame() {
   
   return (
