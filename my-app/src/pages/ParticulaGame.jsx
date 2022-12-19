@@ -42,19 +42,21 @@ function ParticulaGame() {
     <>
       <div>
         {mostraScore ? (
-          <div>
+          <div className="anwser-score">
             <p>
               Você pontuou {score} de {questoes.length}
             </p>
           </div>
         ) : (
           <>
-            <div>
+            <div className="question-lenght">
               {/* Contagem das questões */}
               <span>Questão {questaoAtual + 1}</span> / {questoes.length}
             </div>
-            <h1>{questoes[questaoAtual].questText}</h1>
-            <div>
+            <div className="anwser-text">
+              <h1>{questoes[questaoAtual].questText}</h1>
+            </div>
+            <div className="question-resp">
               {questoes[questaoAtual].opcoesQuest.map((opcaoQuest, index) => (
                 <p
                   onClick={() => handleRespostaQuestao(opcaoQuest.isCorrect)}
