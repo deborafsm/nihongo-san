@@ -1,9 +1,6 @@
-import QuestionGame from '../components/Questions/questionsParticulas'
+import QuestionGame from "../components/Questions/questionsParticulas";
 function ParticulaGame() {
-  
-  return (
-    <QuestionGame/>
-  );
+  return <QuestionGame />;
 }
 
 export default ParticulaGame;

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import style from './style.css'
+import style from "./style.css";
 const questoes = [
   {
     questText: "Qual é a particula ?",
@@ -42,33 +42,35 @@ function QuestionGame() {
   return (
     <>
       <div className="container-anwser">
-        {mostraScore ? (
-          <div className="anwser-score">
-            <p>
-              Você pontuou {score} de {questoes.length}
-            </p>
-          </div>
-        ) : (
-          <>
-            <div className="question-lenght">
-              {/* Contagem das questões */}
-              <span>Questão {questaoAtual + 1}</span> / {questoes.length}
+        <div className="content">
+          {mostraScore ? (
+            <div className="anwser-score">
+              <p>
+                Você pontuou {score} de {questoes.length}
+              </p>
             </div>
-            <div className="anwser-text">
-              <h1>{questoes[questaoAtual].questText}</h1>
-            </div>
-            <div className="question-resp">
-              {questoes[questaoAtual].opcoesQuest.map((opcaoQuest, index) => (
-                <p
-                  onClick={() => handleRespostaQuestao(opcaoQuest.isCorrect)}
-                  key={index}
-                >
-                  {opcaoQuest.respQuest}
-                </p>
-              ))}
-            </div>
-          </>
-        )}
+          ) : (
+            <>
+              <div className="question-lenght">
+                {/* Contagem das questões */}
+                <span>Questão {questaoAtual + 1}</span> / {questoes.length}
+              </div>
+              <div className="anwser-text">
+                <h1>{questoes[questaoAtual].questText}</h1>
+              </div>
+              <div className="question-resp">
+                {questoes[questaoAtual].opcoesQuest.map((opcaoQuest, index) => (
+                  <p
+                    onClick={() => handleRespostaQuestao(opcaoQuest.isCorrect)}
+                    key={index}
+                  >
+                    {opcaoQuest.respQuest}
+                  </p>
+                ))}
+              </div>
+            </>
+          )}
+        </div>
       </div>
     </>
   );
