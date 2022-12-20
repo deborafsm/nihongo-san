@@ -2,11 +2,12 @@ import { useState } from "react";
 import style from "./style.css";
 const questoes = [
   {
-    questText: "Qual é a particula ?",
+    questTextHira: "あの犬__可愛いです（あのいぬ__かわいいです)",
+    questText: " Ano inu __ kawaii desu",
     opcoesQuest: [
-      { respQuest: "Mo", isCorrect: false },
-      { respQuest: "Wa", isCorrect: true },
-      { respQuest: "Ga", isCorrect: false },
+      { respQuest: "Wa は", isCorrect: true },
+      { respQuest: "Mo も", isCorrect: false },
+      { respQuest: "Ga が", isCorrect: false },
     ],
   },
   {
@@ -56,16 +57,17 @@ function QuestionGame() {
                 <span>Questão {questaoAtual + 1}</span> / {questoes.length}
               </div>
               <div className="anwser-text">
-                <h1>{questoes[questaoAtual].questText}</h1>
+                <h4>{questoes[questaoAtual].questTextHira}</h4>
+                <h3>{questoes[questaoAtual].questText}</h3>
               </div>
               <div className="question-resp">
                 {questoes[questaoAtual].opcoesQuest.map((opcaoQuest, index) => (
-                  <p
+                  <button
                     onClick={() => handleRespostaQuestao(opcaoQuest.isCorrect)}
                     key={index}
                   >
                     {opcaoQuest.respQuest}
-                  </p>
+                  </button>
                 ))}
               </div>
             </>
