@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import style from "./style.css";
+import img from "../../img/cong.gif";
 const questoes = [
   {
     questTextHira: "あの犬__可愛いです（あのいぬ__かわいいです)",
@@ -11,11 +12,12 @@ const questoes = [
     ],
   },
   {
-    questText: "Qual é a particula  Wa?",
+    questTextHira: "誕生日__いつですか？（たんじょうび__いつですか",
+    questText: "Tanjoubi __ itsu desuka",
     opcoesQuest: [
-      { respQuest: "Mo", isCorrect: false },
-      { respQuest: "Wa", isCorrect: true },
-      { respQuest: "Ga", isCorrect: false },
+      { respQuest: "Wa は", isCorrect: true },
+      { respQuest: "Mo も", isCorrect: false },
+      { respQuest: "Ga が", isCorrect: false },
     ],
   },
 ];
@@ -40,6 +42,9 @@ function QuestionGame() {
       setMostraScore(true);
     }
   }
+
+  function Refazer() {}
+
   return (
     <>
       <div className="container-anwser">
@@ -49,6 +54,8 @@ function QuestionGame() {
               <p>
                 Você pontuou {score} de {questoes.length}
               </p>
+              {/* <img src={img} alt="" /> */}
+              <button onClick={() => Refazer()}>Refazer</button>
             </div>
           ) : (
             <>
