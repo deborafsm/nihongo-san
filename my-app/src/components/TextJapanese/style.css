@@ -1,0 +1,18 @@
+.text-hira {
+  font-weight: 200;
+  font-size: 15px;
+}
+.text-roma {
+  font-weight: 900;
+  color: red;
+}
+.text-pt {
+  font-weight: 700;
+}
+.container-text {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

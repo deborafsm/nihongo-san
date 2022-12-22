@@ -1,16 +1,38 @@
 import Dialog from "../components/Dialog";
+import Frases from "../components/TextJapanese/index";
 function Particulas() {
   return (
     <>
       <div>
-        <h1>Wa【は】</h1>
-        <p>
-          A função da particula Wa【は】 serve para indicar o sujeito da oração.
-          <br />
-          Ou seja sobre quem está falando ou quem ira realizar a ação.
-        </p>
+        <div>
+          <h1>Particulas</h1>
+        </div>
+        <br />
+        <div>
+          <h2>Wa【は】</h2>
+          <p>
+            A função da particula Wa【は】ele é usada para dizer frases como
+            "isso é aquilo" e "isso está aquilo
+            <Frases
+              jpnTextHira="猫は動物です"
+              jpnTextRMj="neko wa doubutsu desu"
+              jpnPt="Gatos são animais."
+            />
+          </p>
+        </div>
+        <div>
+          <h2>Ga【が】</h2>
+          <p>
+            A função da particula Ga【が】 serve para indicar quem está
+            realizando uma ação.
+            <Frases
+              jpnTextHira="猫が逃げた"
+              jpnTextRMj="neko ga nigeta."
+              jpnPt="O gato fugiu."
+            />
+          </p>
+        </div>
       </div>
-      <Dialog text="わたしはぶらじるじんです" fraseh="私はブラジル人です" />
     </>
   );
 }
