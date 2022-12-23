@@ -43,7 +43,10 @@ function QuestionGame() {
     }
   }
 
-  function Refazer() {}
+  function Refazer() {
+    setMostraScore(0)
+    setQuestaoAtual(0)
+  }
 
   return (
     <>
