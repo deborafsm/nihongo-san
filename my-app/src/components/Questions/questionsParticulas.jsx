@@ -44,8 +44,8 @@ function QuestionGame() {
   }
 
   function Refazer() {
-    setMostraScore(0)
-    setQuestaoAtual(0)
+    setMostraScore(0);
+    setQuestaoAtual(0);
   }
 
   return (
@@ -57,8 +57,11 @@ function QuestionGame() {
               <p>
                 Você pontuou {score} de {questoes.length}
               </p>
-              {/* <img src={img} alt="" /> */}
-              <button onClick={() => Refazer()}>Refazer</button>
+             
+              <br />
+              <button className="reset-button" onClick={() => Refazer()}>
+                Refazer
+              </button>
             </div>
           ) : (
             <>
