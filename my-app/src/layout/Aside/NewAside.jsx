@@ -63,15 +63,37 @@ const NewAside = () => {
           <Toolbar />
           <Box sx={{ overflow: "auto" }}>
             <List
-              sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
+              sx={{
+                width: "100%",
+                maxWidth: 360,
+                bgcolor: "background.paper",
+              }}
               component="nav"
               aria-labelledby="nested-list-subheader"
               subheader={
-                <ListSubheader component="div" id="nested-list-subheader">
-                  Nested List Items
-                </ListSubheader>
+                <ListSubheader
+                  component="div"
+                  id="nested-list-subheader"
+                ></ListSubheader>
               }
             >
+              <List>
+                {SideData.filter((item) => item.cName.match("Home")).map(
+                  (itemFilterName) => (
+                    <ListItem key={itemFilterName.id} disablePadding>
+                      <ListItemButton>
+                        <ListItemIcon>{itemFilterName.icon}</ListItemIcon>
+                        <a
+                          href={itemFilterName.path}
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
+                          <ListItemText primary={itemFilterName.title} />
+                        </a>
+                      </ListItemButton>
+                    </ListItem>
+                  )
+                )}
+              </List>
               <ListItemButton onClick={handleClick}>
                 <ListItemIcon>
                   <BiGame />
@@ -86,7 +108,10 @@ const NewAside = () => {
                     <ListItem key={itemFilterName.id} disablePadding>
                       <ListItemButton>
                         <ListItemIcon>{itemFilterName.icon}</ListItemIcon>
-                        <a href={itemFilterName.path}>
+                        <a
+                          href={itemFilterName.path}
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
                           <ListItemText primary={itemFilterName.title} />
                         </a>
                       </ListItemButton>
@@ -121,7 +146,10 @@ const NewAside = () => {
                     <ListItem key={itemFilterName.id} disablePadding>
                       <ListItemButton>
                         <ListItemIcon>{itemFilterName.icon}</ListItemIcon>
-                        <a href={itemFilterName.path}>
+                        <a
+                          href={itemFilterName.path}
+                          style={{ textDecoration: "none", color: "black" }}
+                        >
                           <ListItemText primary={itemFilterName.title} />
                         </a>
                       </ListItemButton>
@@ -131,16 +159,7 @@ const NewAside = () => {
               </Collapse>
             </List>
             <Divider />
-            {/* {((item, index) => {
-              return (
-                <li key={index} className={item.cName}>
-                  <a href={item.path}>
-                    {item.icon}
-                    <span className="spn">{item.title}</span>
-                  </a>
-                </li>
-              );
-            })} */}
+
             {/* <List>
               {SideData.map((item, index) => (
                 <ListItem key={index} disablePadding>

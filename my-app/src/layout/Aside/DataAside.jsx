@@ -1,13 +1,13 @@
 import { FaPaintBrush, FaInfoCircle } from "react-icons/fa";
-import { MdQuiz, MdExtension } from "react-icons/md";
+import { MdQuiz, MdExtension, MdHome } from "react-icons/md";
 import { TbLanguageHiragana } from "react-icons/tb";
 export const SideData = [
   {
     id: "123",
     title: "Home",
     path: "/home",
-    icon: <TbLanguageHiragana />,
-    cName: "Gramatica",
+    icon: <MdHome />,
+    cName: "Home",
   },
   {
     id: "123456",
