@@ -20,8 +20,8 @@ const Rotas = () => (
       <Route path="/germinados" element={<Germinados />} />
       <Route path="/cores" element={<Cores />} />
       <Route path="/game" element={<MemoryGame />} />
-      <Route path="/particula" element={<Particulas/>}></Route> 
-      <Route path="/particula-game" element={<ParticulaGame/>}></Route> 
+      <Route path="/particula" element={<Particulas />}></Route>
+      <Route path="/particula-game" element={<ParticulaGame />}></Route>
     </Routes>
   </Layout>
 );

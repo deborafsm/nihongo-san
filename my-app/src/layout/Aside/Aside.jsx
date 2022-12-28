@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "react-router-dom";
-import styleAside from "./style.css";
+import style from "./style.css";
 import { IconContext } from "react-icons";
 import { SideData } from "./DataAside";
 import { FaColumns, FaBars, FaWindowClose, FaInfoCircle } from "react-icons/fa";

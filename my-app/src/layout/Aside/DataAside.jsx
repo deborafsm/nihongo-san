@@ -3,7 +3,7 @@ export const SideData = [
   {
     title: "Home",
     path: "/home",
-    icon: <FaColumns />,
+    icon: "Home",
     cName: "nav-text",
   },
   {
