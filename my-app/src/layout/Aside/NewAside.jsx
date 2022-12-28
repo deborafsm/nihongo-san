@@ -21,6 +21,8 @@ import ExpandMore from "@mui/icons-material/ExpandMore";
 import StarBorder from "@mui/icons-material/StarBorder";
 import HomeIcon from "@mui/icons-material/Home";
 import { SideData } from "./DataAside";
+import { TbLanguageKatakana } from "react-icons/tb";
+import { BiGame } from "react-icons/bi";
 const NewAside = () => {
   const drawerWidth = 240;
   const [open, setOpen] = React.useState(true);
@@ -72,7 +74,7 @@ const NewAside = () => {
             >
               <ListItemButton onClick={handleClick}>
                 <ListItemIcon>
-                  <InboxIcon />
+                  <BiGame />
                 </ListItemIcon>
                 <ListItemText primary="Jogos" />
                 {open ? <ExpandLess /> : <ExpandMore />}
@@ -107,7 +109,7 @@ const NewAside = () => {
             >
               <ListItemButton onClick={handleClickGrm}>
                 <ListItemIcon>
-                  <InboxIcon />
+                  <TbLanguageKatakana />
                 </ListItemIcon>
                 <ListItemText primary="Gramatica" />
                 {openGrm ? <ExpandLess /> : <ExpandMore />}

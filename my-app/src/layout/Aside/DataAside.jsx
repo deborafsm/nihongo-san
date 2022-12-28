@@ -1,59 +1,61 @@
-import { FaColumns, FaInfoCircle } from "react-icons/fa";
+import { FaPaintBrush, FaInfoCircle } from "react-icons/fa";
+import { MdQuiz, MdExtension } from "react-icons/md";
+import { TbLanguageHiragana } from "react-icons/tb";
 export const SideData = [
   {
-    id:"123",
+    id: "123",
     title: "Home",
     path: "/home",
-    icon: "Home",
+    icon: <TbLanguageHiragana />,
     cName: "Gramatica",
   },
   {
-    id:"123456",
+    id: "123456",
     title: "Monógrafos",
     path: "/monografos",
-    icon: <FaInfoCircle />,
-    cName: "Jogo",
+    icon: <TbLanguageHiragana />,
+    cName: "Gramatica",
   },
   {
-    id:"123789",
+    id: "123789",
     title: "Dígrafos",
     path: "/digrafos",
-    icon: <FaInfoCircle />,
+    icon: <TbLanguageHiragana />,
     cName: "Gramatica",
   },
   {
-    id:"123012",
+    id: "123012",
     title: "Geminados",
     path: "/germinados",
-    icon: <FaInfoCircle />,
+    icon: <TbLanguageHiragana />,
     cName: "Gramatica",
   },
   {
-    id:"123013",
+    id: "123013",
     title: "Cores",
     path: "/cores",
-    icon: <FaInfoCircle />,
+    icon: <FaPaintBrush />,
     cName: "Jogo",
   },
   {
-    id:"123015",
+    id: "123015",
     title: "Jogo da Memoria",
     path: "/game",
-    icon: <FaInfoCircle />,
+    icon: <MdExtension />,
     cName: "Jogo",
   },
   {
-    id:"123014",
+    id: "123014",
     title: "Particulas",
     path: "/particula",
-    icon: <FaInfoCircle />,
+    icon: <TbLanguageHiragana />,
     cName: "Gramatica",
   },
   {
-    id:"123016",
+    id: "123016",
     title: "Que Particula é essa ",
     path: "/particula-game",
-    icon: <FaInfoCircle />,
-    cName: "Gramatica",
-  }
+    icon: <MdQuiz />,
+    cName: "Jogo",
+  },
 ];
