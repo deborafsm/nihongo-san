@@ -24,8 +24,12 @@ import { SideData } from "./DataAside";
 const NewAside = () => {
   const drawerWidth = 240;
   const [open, setOpen] = React.useState(true);
+  const [openGrm, setOpenGram] = React.useState(true);
   const handleClick = () => {
     setOpen(!open);
+  };
+  const handleClickGrm = () => {
+    setOpenGram(!openGrm);
   };
   const [sidebar, setSidebar] = React.useState(false);
   const showSidebar = () => setSidebar(!sidebar);
@@ -66,34 +70,62 @@ const NewAside = () => {
                 </ListSubheader>
               }
             >
-              <ListItemButton>
-                <ListItemIcon>
-                  <SendIcon />
-                </ListItemIcon>
-                <ListItemText primary="Sent mail" />
-              </ListItemButton>
-              <ListItemButton>
-                <ListItemIcon>
-                  <DraftsIcon />
-                </ListItemIcon>
-                <ListItemText primary="Drafts" />
-              </ListItemButton>
               <ListItemButton onClick={handleClick}>
                 <ListItemIcon>
                   <InboxIcon />
                 </ListItemIcon>
-                <ListItemText primary="Inbox" />
+                <ListItemText primary="Jogos" />
                 {open ? <ExpandLess /> : <ExpandMore />}
               </ListItemButton>
+
               <Collapse in={open} timeout="auto" unmountOnExit>
-                <List component="div" disablePadding>
-                  <ListItemButton sx={{ pl: 4 }}>
-                    <ListItemIcon>
-                      <StarBorder />
-                    </ListItemIcon>
-                    <ListItemText primary="Starred" />
-                  </ListItemButton>
-                </List>
+                {SideData.filter((item) => item.cName.match("Jogo")).map(
+                  (itemFilterName) => (
+                    <ListItem key={itemFilterName.id} disablePadding>
+                      <ListItemButton>
+                        <ListItemIcon>{itemFilterName.icon}</ListItemIcon>
+                        <a href={itemFilterName.path}>
+                          <ListItemText primary={itemFilterName.title} />
+                        </a>
+                      </ListItemButton>
+                    </ListItem>
+                  )
+                )}
+              </Collapse>
+            </List>
+            <Divider />
+            <List
+              sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
+              component="nav"
+              aria-labelledby="nested-list-subheader"
+              subheader={
+                <ListSubheader
+                  component="div"
+                  id="nested-list-subheader"
+                ></ListSubheader>
+              }
+            >
+              <ListItemButton onClick={handleClickGrm}>
+                <ListItemIcon>
+                  <InboxIcon />
+                </ListItemIcon>
+                <ListItemText primary="Gramatica" />
+                {openGrm ? <ExpandLess /> : <ExpandMore />}
+              </ListItemButton>
+
+              <Collapse in={openGrm} timeout="auto" unmountOnExit>
+                {SideData.filter((item) => item.cName.match("Gramatica")).map(
+                  (itemFilterName) => (
+                    <ListItem key={itemFilterName.id} disablePadding>
+                      <ListItemButton>
+                        <ListItemIcon>{itemFilterName.icon}</ListItemIcon>
+                        <a href={itemFilterName.path}>
+                          <ListItemText primary={itemFilterName.title} />
+                        </a>
+                      </ListItemButton>
+                    </ListItem>
+                  )
+                )}
               </Collapse>
             </List>
             <Divider />
@@ -107,7 +139,7 @@ const NewAside = () => {
                 </li>
               );
             })} */}
-            <List>
+            {/* <List>
               {SideData.map((item, index) => (
                 <ListItem key={index} disablePadding>
                   <ListItemButton>
@@ -118,7 +150,7 @@ const NewAside = () => {
                   </ListItemButton>
                 </ListItem>
               ))}
-            </List>
+            </List> */}
           </Box>
         </Drawer>
         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
