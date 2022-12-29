@@ -53,7 +53,7 @@ export const SideData = [
   },
   {
     id: "123016",
-    title: "Que Particula é essa ",
+    title: "Qual é a particula ?",
     path: "/particula-game",
     icon: <MdQuiz />,
     cName: "Jogo",
