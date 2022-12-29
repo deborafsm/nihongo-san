@@ -45,7 +45,7 @@ const NewAside = () => {
         >
           <Toolbar>
             <Typography variant="h6" noWrap component="div">
-              Clipped drawer
+              teste
             </Typography>
           </Toolbar>
         </AppBar>
