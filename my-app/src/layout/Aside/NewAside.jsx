@@ -23,6 +23,8 @@ import HomeIcon from "@mui/icons-material/Home";
 import { SideData } from "./DataAside";
 import { TbLanguageKatakana } from "react-icons/tb";
 import { BiGame } from "react-icons/bi";
+import icon from "../../img/logo_sakura.png";
+import { display } from "@mui/system";
 const NewAside = () => {
   const drawerWidth = 240;
   const [open, setOpen] = React.useState(true);
@@ -43,9 +45,16 @@ const NewAside = () => {
           position="fixed"
           sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}
         >
-          <Toolbar>
+          <Toolbar
+            style={{
+              backgroundColor: "#C1F4C5",
+              display: "flex",
+              alignItems: "center",
+             
+            }}
+          >
             <Typography variant="h6" noWrap component="div">
-              teste
+              <img src={icon} alt="" />
             </Typography>
           </Toolbar>
         </AppBar>

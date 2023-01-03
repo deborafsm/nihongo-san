@@ -58,4 +58,11 @@ export const SideData = [
     icon: <MdQuiz />,
     cName: "Jogo",
   },
+  {
+    id: "123017",
+    title: "Quiz",
+    path: "/quiz-game",
+    icon: <MdQuiz />,
+    cName: "Jogo",
+  },
 ];
