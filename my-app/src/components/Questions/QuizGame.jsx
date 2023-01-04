@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import style from "./style.css";
+import style from "./style-quiz.css";
 import img from "../../img/cong.gif";
 import { SideData } from "./quiz";
 const questoes = SideData;
@@ -33,10 +33,10 @@ function QuestionGame() {
 
   return (
     <>
-      <div className="container-anwser">
-        <div className="content">
+      <div className="card-container">
+        <div>
           {mostraScore ? (
-            <div className="anwser-score">
+            <div className="card-score">
               <p>
                 Você pontuou {score} de {questoes.length}
               </p>
@@ -48,15 +48,15 @@ function QuestionGame() {
             </div>
           ) : (
             <>
-              <div className="question-lenght">
+              <div className="question-current">
                 {/* Contagem das questões */}
                 <span>Questão {questaoAtual + 1}</span> / {questoes.length}
               </div>
-              <div className="anwser-text">
+              <div className="question-text">
                 <h4>{questoes[questaoAtual].questTextHira}</h4>
                 <h3>{questoes[questaoAtual].questText}</h3>
               </div>
-              <div>
+              <div className="question-resp-icon">
                 {questoes[questaoAtual].opcoesQuest.map((opcaoQuest, index) => (
                   <button
                     onClick={() => handleRespostaQuestao(opcaoQuest.isCorrect)}

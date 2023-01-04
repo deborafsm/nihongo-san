@@ -1,0 +1,24 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(212, 212, 212, 0.75);
+  width: 51%;
+  padding: 2px;
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 0.75);
+}
+.card-score {
+}
+.question-current {
+}
+.question-text {
+}
+.question-resp-icon button {
+  color: rgb(247, 247, 247);
+  cursor: pointer;
+  background-color: rgba(43, 43, 43, 0);
+  margin: 10px;
+}

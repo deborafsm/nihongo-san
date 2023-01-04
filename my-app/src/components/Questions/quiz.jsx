@@ -1,17 +1,32 @@
 import { FaPaintBrush, FaInfoCircle } from "react-icons/fa";
 import { MdQuiz, MdExtension, MdHome } from "react-icons/md";
 import { TbLanguageHiragana } from "react-icons/tb";
-import sakura from "../../img/sakura-logo.png";
+import maca from "../../img/maca_smle.png";
+import abacaxi from "../../img/abacaxi _smle.png";
+import banana from "../../img/banana_smle.png";
+import laranja from "../../img/laranja_smle.png";
 export const SideData = [
-  {
-    questTextHira: "あの犬__可愛いです（あのいぬ__かわいいです)",
+    {
+        questTextHira: "あの犬__可愛いです（あのいぬ__かわいいです)",
     questText: " Ano inu __ kawaii desu",
     questTraducao: "Aquele cachorro é fofinho",
     opcoesQuest: [
-      { respQuest: <img src={sakura} alt="" />, isCorrect: true },
-      { respQuest: <img src={sakura} alt="" />, isCorrect: false },
-      { respQuest: <img src={sakura} alt="" />, isCorrect: false },
-      { respQuest: <img src={sakura} alt="" />, isCorrect: false },
+      {
+        respQuest: <img src={maca} alt="" style={{ width: "130px" }} />,
+        isCorrect: true,
+      },
+      {
+        respQuest: <img src={abacaxi} alt="" style={{ width: "130px" }} />,
+        isCorrect: false,
+      },
+      {
+        respQuest: <img src={banana} alt="" style={{ width: "130px" }} />,
+        isCorrect: false,
+      },
+      {
+        respQuest: <img src={laranja} alt="" style={{ width: "130px" }} />,
+        isCorrect: false,
+      },
     ],
   },
   {
