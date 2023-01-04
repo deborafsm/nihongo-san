@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import style from "./style.css";
 import img from "../../img/cong.gif";
-import quizData from './quiz'
-const questoes = quizData
+import { SideData } from "./quiz";
+const questoes = SideData;
 function QuestionGame() {
   // Mostra Score do jogo
   const [mostraScore, setMostraScore] = useState(false);
@@ -56,7 +56,7 @@ function QuestionGame() {
                 <h4>{questoes[questaoAtual].questTextHira}</h4>
                 <h3>{questoes[questaoAtual].questText}</h3>
               </div>
-              <div className="question-resp">
+              <div>
                 {questoes[questaoAtual].opcoesQuest.map((opcaoQuest, index) => (
                   <button
                     onClick={() => handleRespostaQuestao(opcaoQuest.isCorrect)}
