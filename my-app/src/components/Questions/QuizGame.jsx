@@ -3,6 +3,7 @@ import style from "./style-quiz.css";
 import img from "../../img/cong.gif";
 import { SideData } from "./quiz";
 const questoes = SideData;
+console.log(questoes);
 function QuestionGame() {
   // Mostra Score do jogo
   const [mostraScore, setMostraScore] = useState(false);
@@ -57,14 +58,18 @@ function QuestionGame() {
                 <h3>{questoes[questaoAtual].questText}</h3>
               </div>
               <div className="question-resp-icon">
-                {questoes[questaoAtual].opcoesQuest.map((opcaoQuest, index) => (
-                  <button
-                    onClick={() => handleRespostaQuestao(opcaoQuest.isCorrect)}
-                    key={index}
-                  >
-                    {opcaoQuest.respQuest}
-                  </button>
-                ))}
+                {questoes[questaoAtual].opcoesQuest
+                  .sort(() => Math.random() - 0.5)
+                  .map((opcaoQuest, index) => (
+                    <button
+                      onClick={() =>
+                        handleRespostaQuestao(opcaoQuest.isCorrect)
+                      }
+                      key={index}
+                    >
+                      {opcaoQuest.respQuest}
+                    </button>
+                  ))}
               </div>
             </>
           )}

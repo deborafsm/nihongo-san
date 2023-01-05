@@ -6,14 +6,14 @@ import abacaxi from "../../img/abacaxi _smle.png";
 import banana from "../../img/banana_smle.png";
 import laranja from "../../img/laranja_smle.png";
 export const SideData = [
-    {
-        questTextHira: "あの犬__可愛いです（あのいぬ__かわいいです)",
-    questText: " Ano inu __ kawaii desu",
-    questTraducao: "Aquele cachorro é fofinho",
+  {
+    questTextHira: "オレンジ",
+    questText: " Orenji",
+    questTraducao: "Laranja",
     opcoesQuest: [
       {
         respQuest: <img src={maca} alt="" style={{ width: "130px" }} />,
-        isCorrect: true,
+        isCorrect: false,
       },
       {
         respQuest: <img src={abacaxi} alt="" style={{ width: "130px" }} />,
@@ -25,28 +25,32 @@ export const SideData = [
       },
       {
         respQuest: <img src={laranja} alt="" style={{ width: "130px" }} />,
-        isCorrect: false,
+        isCorrect: true,
       },
     ],
   },
   {
-    questTextHira: "誕生日__いつですか？（たんじょうび__いつですか",
-    questText: "Tanjoubi __ itsu desuka",
-    questTraducao: "Quando que é a data de aniversário?",
+    questTextHira: "くず",
+    questText: " Kuzu",
+    questTraducao: "Maça",
     opcoesQuest: [
-      { respQuest: "Wa は", isCorrect: true },
-      { respQuest: "Mo も", isCorrect: false },
-      { respQuest: "Ga が", isCorrect: false },
+      
+      {
+        respQuest: <img src={laranja} alt="" style={{ width: "130px" }} />,
+        isCorrect: false,
+      },
+      {
+        respQuest: <img src={abacaxi} alt="" style={{ width: "130px" }} />,
+        isCorrect: false,
+      },
+      {
+        respQuest: <img src={banana} alt="" style={{ width: "130px" }} />,
+        isCorrect: false,
+      },
+      {
+        respQuest: <img src={maca} alt="" style={{ width: "130px" }} />,
+        isCorrect: true,
+      },
     ],
-  },
-  {
-    questTextHira: "これ __ いくらですか？",
-    questText: "Kore __ ikura desuka",
-    questTraducao: "Quanto é isto?",
-    opcoesQuest: [
-      { respQuest: "Wa は", isCorrect: true },
-      { respQuest: "Mo も", isCorrect: false },
-      { respQuest: "Ga が", isCorrect: false },
-    ],
-  },
+  }
 ];

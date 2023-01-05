@@ -21,4 +21,7 @@
   cursor: pointer;
   background-color: rgba(43, 43, 43, 0);
   margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
 }
