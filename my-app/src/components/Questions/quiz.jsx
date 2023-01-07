@@ -43,7 +43,7 @@ export const SideData = [
   },
   {
     questTextHira: "くず",
-    questText: " Kuzu",
+    questText: " appuru",
     questTraducao: "Maça",
     opcoesQuest: [
       {
@@ -74,24 +74,32 @@ export const SideData = [
   },
   {
     questTextHira: "女性",
-    questText: " Josei",
+    questText: "Josei",
     questTraducao: "mulher",
     opcoesQuest: [
       {
         respQuest: <img src={daughter} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
+        titleJpn: "娘",
+        titlePt: "Musume",
       },
       {
         respQuest: <img src={geisha} alt="" style={{ width: "120px" }} />,
         isCorrect: true,
+        titleJpn: "芸者",
+        titlePt: "Gueixa",
       },
       {
         respQuest: <img src={man} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
+        titleJpn: "男性",
+        titlePt: "Homem",
       },
       {
         respQuest: <img src={woman} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
+        titleJpn: "女性",
+        titlePt: "Josei",
       },
     ],
   },
