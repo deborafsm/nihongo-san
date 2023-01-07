@@ -1,10 +1,10 @@
 .card-container {
   display: flex;
   justify-content: center;
-  border: 1px solid rgba(212, 212, 212, 0.75);
-  width: 60%;
-  padding: 2px;
   align-items: center;
+  border: 1px solid rgba(212, 212, 212, 0.75);
+  width: 51%;
+  padding: 2px;
   border-radius: 5%;
   box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 0.75);
@@ -23,8 +23,11 @@
   cursor: pointer;
   background-color: rgba(43, 43, 43, 0);
   margin: 10px;
-  border: 1px solid black;
-  border-radius: 10px;
+  border: 1px solid rgba(212, 212, 212, 0.185);
+  box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 0.75);
+  border-radius: 50px;
   padding: 15px;
 }
 .question-resp-icon p {
