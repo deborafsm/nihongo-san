@@ -85,7 +85,7 @@ export const SideData = [
       },
       {
         respQuest: <img src={geisha} alt="" style={{ width: "120px" }} />,
-        isCorrect: true,
+        isCorrect: false,
         titleJpn: "芸者",
         titlePt: "Gueixa",
       },
@@ -97,7 +97,7 @@ export const SideData = [
       },
       {
         respQuest: <img src={woman} alt="" style={{ width: "120px" }} />,
-        isCorrect: false,
+        isCorrect: true,
         titleJpn: "女性",
         titlePt: "Josei",
       },
