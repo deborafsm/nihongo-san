@@ -54,7 +54,7 @@ function QuestionGame() {
                 <span>Questão {questaoAtual + 1}</span> / {questoes.length}
               </div>
               <div className="question-text">
-                <h4>{questoes[questaoAtual].questTextHira}</h4>
+                {/* <h4>{questoes[questaoAtual].questTextHira}</h4> */}
                 <h3>{questoes[questaoAtual].questText}</h3>
               </div>
               <div className="question-resp-icon">
@@ -67,6 +67,7 @@ function QuestionGame() {
                       }
                       key={index}
                     >
+                      <p>{opcaoQuest.titleJpn}</p>
                       {opcaoQuest.respQuest}
                     </button>
                   ))}

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   border: 1px solid rgba(212, 212, 212, 0.75);
-  width: 51%;
+  width: 60%;
   padding: 2px;
   align-items: center;
   border-radius: 5%;
@@ -17,11 +17,17 @@
 .question-text {
 }
 .question-resp-icon button {
+  width: 140px;
+  height: 180px;
   color: rgb(247, 247, 247);
   cursor: pointer;
   background-color: rgba(43, 43, 43, 0);
   margin: 10px;
   border: 1px solid black;
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
+}
+.question-resp-icon p {
+  color: black;
+  font-weight: 800;
 }

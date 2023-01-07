@@ -16,20 +16,28 @@ export const SideData = [
     questTraducao: "Laranja",
     opcoesQuest: [
       {
-        respQuest: <img src={maca} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={maca} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
+        titleJpn: "リンゴ/アップル",
+        titlePt: "Ringo/(Apple)appuru",
       },
       {
-        respQuest: <img src={abacaxi} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={abacaxi} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
+        titleJpn: "ぱいなっぷる",
+        titlePt: "Painappuru / pain",
       },
       {
-        respQuest: <img src={banana} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={banana} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
+        titleJpn: "バナナ",
+        titlePt: "Banana",
       },
       {
-        respQuest: <img src={laranja} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={laranja} alt="" style={{ width: "120px" }} />,
         isCorrect: true,
+        titleJpn: "オレンジ",
+        titlePt: "Orendi",
       },
     ],
   },
@@ -38,22 +46,29 @@ export const SideData = [
     questText: " Kuzu",
     questTraducao: "Maça",
     opcoesQuest: [
-      
       {
-        respQuest: <img src={laranja} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={laranja} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
+        titleJpn: "オレンジ",
+        titlePt: "Orendi",
       },
       {
-        respQuest: <img src={abacaxi} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={abacaxi} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
+        titleJpn: "ぱいなっぷる",
+        titlePt: "Painappuru / pain",
       },
       {
-        respQuest: <img src={banana} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={banana} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
+        titleJpn: "バナナ",
+        titlePt: "Banana",
       },
       {
-        respQuest: <img src={maca} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={maca} alt="" style={{ width: "120px" }} />,
         isCorrect: true,
+        titleJpn: "リンゴ/アップル",
+        titlePt: "Ringo/(Apple)appuru",
       },
     ],
   },
@@ -62,23 +77,22 @@ export const SideData = [
     questText: " Josei",
     questTraducao: "mulher",
     opcoesQuest: [
-      
       {
-        respQuest: <img src={daughter} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={daughter} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
       },
       {
-        respQuest: <img src={geisha} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={geisha} alt="" style={{ width: "120px" }} />,
         isCorrect: true,
       },
       {
-        respQuest: <img src={man} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={man} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
       },
       {
-        respQuest: <img src={woman} alt="" style={{ width: "130px" }} />,
+        respQuest: <img src={woman} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
       },
     ],
-  }
+  },
 ];
