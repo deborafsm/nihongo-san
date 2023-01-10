@@ -11,7 +11,13 @@
   -moz-box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 0.75);
 }
 .card-score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  flex-direction: column;
 }
+
 .question-current {
 }
 .question-text {
