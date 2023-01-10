@@ -5,3 +5,64 @@
 5 - Jogo da Memoria
 6 - Particulas 
 151222 -WA
+
+
+Português	Kana	Romaji	Kanji
+Animal	どうぶつ	Doubutsu	動物
+Urso	くま	Kuma	熊
+Pássaro	とり	Tori	鳥
+Camelo	ラクダ	Rakuda	
+Gato	ねこ	Neko	猫
+Galinha	にわとり	Niwatori	鶏
+Vaca/boi	うし	Ushi	牛
+Crocodilo	わに	Wani	
+Veado	しか	Shika	鹿
+Cachorro/Cão	いぬ	Inu	犬
+Golfinho	いるか	Iruka	
+Burro	ろば	Roba	
+Pato	かも	Kamo	
+Águia	わし	Washi	
+Elefante	ぞう	Zou	象
+Raposa	きつね	Kitsune	狐
+Sapo	かえる	Kaeru	
+Girafa	キリン	Kirin	
+Cabra	やぎ	Yagi	
+Hipopótamo	かば	Kaba	
+Cavalo	うま	Uma	馬
+Leão	ライオン	Raion	
+Lagarto	とかげ	Tokage	
+Macaco	さる	Saru	猿
+Rato	ねずみ	Nezumi	
+Porco	ぶた	Buta	豚
+Coelho	うさぎ	Usagi	
+Rato	ねずみ	Nezumi	
+Tubarão	さめ	Same	
+Ovelha	ひつじ	Hitsuji	羊
+Cobra	へび	Hebi	
+Aranha	くも	Kumo	
+Esquilo	りす	Risu	
+Cisne	はくちょう	Hakuchou	白鳥
+Baleia	くじら	Kujira	
+Lobo	おおかみ	Ookami	狼
+Zebra	しまうま	Shimauma	
+Tigre	とら	Tora	虎
+Carpa	こい	Koi	
+Formiga	アリ	Ari	
+Panda	パンダ	Panda	
+Tartaruga	かめ	Kame	亀
+Polvo	たこ	Tako	蛸
+Lula	いか	Ika	
+Cigarra	せみ	Semi	蝉
+Abelha	はち	Hachi	蜂
+Coala	コアラ	Coara	
+Canguru	カンガルー	Kangaru	
+Gorila	ゴリラ	Gorira	
+Pinguin	ペンギン	Pengin	
+Pintinho	ひよこ	Hiyoko	
+Peixe	さかな	Sakana	魚
+Marisco/Crustáceo	かい	Kai	貝
+Inseto	むし	Mushi	虫
+Pomba	はと	Hato	鳩
+Corvo	カラス	Karasu	
+Pardal	すずめ	Suzume	雀
+Lagartixa	ヤモリ	Yamori	
