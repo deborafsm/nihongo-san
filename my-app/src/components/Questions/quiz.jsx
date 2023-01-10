@@ -9,6 +9,10 @@ import daughter from "../../img/daughter.png";
 import woman from "../../img/woman.png";
 import geisha from "../../img/geisha.png";
 import man from "../../img/man.png";
+import cachorro from "../../img/cachorro.png";
+import gato from "../../img/gato.png";
+import coelho from "../../img/coelho.png";
+import rato from "../../img/rato.png";
 export const SideData = [
   {
     questTextHira: "オレンジ",
@@ -100,6 +104,37 @@ export const SideData = [
         isCorrect: true,
         titleJpn: "女性",
         titlePt: "Josei",
+      },
+    ],
+  },
+  {
+    questTextHira: "ねこ",
+    questText: "Neko",
+    questTraducao: "gato",
+    opcoesQuest: [
+      {
+        respQuest: <img src={gato} alt="" style={{ width: "120px" }} />,
+        isCorrect: true,
+        titleJpn: "ねこ",
+        titlePt: "Neko",
+      },
+      {
+        respQuest: <img src={cachorro} alt="" style={{ width: "120px" }} />,
+        isCorrect: false,
+        titleJpn: "芸者",
+        titlePt: "Inu",
+      },
+      {
+        respQuest: <img src={coelho} alt="" style={{ width: "120px" }} />,
+        isCorrect: false,
+        titleJpn: "うさぎ",
+        titlePt: "Usagi",
+      },
+      {
+        respQuest: <img src={rato} alt="" style={{ width: "120px" }} />,
+        isCorrect: false,
+        titleJpn: "ねずみ	",
+        titlePt: "Nezumi",
       },
     ],
   },
