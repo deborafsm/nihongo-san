@@ -18,6 +18,7 @@ export const SideData = [
     questTextHira: "オレンジ",
     questText: " Orenji",
     questTraducao: "Laranja",
+    type:"Frutas",
     opcoesQuest: [
       {
         respQuest: <img src={maca} alt="" style={{ width: "120px" }} />,
@@ -49,6 +50,7 @@ export const SideData = [
     questTextHira: "くず",
     questText: " appuru",
     questTraducao: "Maça",
+    type:"Frutas",
     opcoesQuest: [
       {
         respQuest: <img src={laranja} alt="" style={{ width: "120px" }} />,
@@ -80,6 +82,7 @@ export const SideData = [
     questTextHira: "女性",
     questText: "Josei",
     questTraducao: "mulher",
+    type:"Generos",
     opcoesQuest: [
       {
         respQuest: <img src={daughter} alt="" style={{ width: "120px" }} />,
@@ -111,6 +114,7 @@ export const SideData = [
     questTextHira: "ねこ",
     questText: "Neko",
     questTraducao: "gato",
+    type:"Animais",
     opcoesQuest: [
       {
         respQuest: <img src={gato} alt="" style={{ width: "120px" }} />,

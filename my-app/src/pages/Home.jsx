@@ -6,6 +6,7 @@ function Home() {
      
       <div className="img_home">
         <h1>HOME</h1>
+        <a href="/quiz-game"><button>FRUTAS</button></a>
       </div>
     </div>
   );

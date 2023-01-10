@@ -15,7 +15,8 @@ Tópicos
 - Moveis
 - Cosméticos
 - Roupas
-
+- legumes
+- frutas
 
 Português	Kana	Romaji	Kanji
 Animal	どうぶつ	Doubutsu	動物
