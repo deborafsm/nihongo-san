@@ -4,7 +4,17 @@
 4 - Cores 
 5 - Jogo da Memoria
 6 - Particulas 
-151222 -WA
+
+
+Tópicos
+- Animais
+- Familia 
+- Profissoes
+- Transporte
+- Eletrodomesticos
+- Moveis
+- Cosméticos
+- Roupas
 
 
 Português	Kana	Romaji	Kanji
@@ -66,3 +76,6 @@ Pomba	はと	Hato	鳩
 Corvo	カラス	Karasu	
 Pardal	すずめ	Suzume	雀
 Lagartixa	ヤモリ	Yamori	
+
+
+
