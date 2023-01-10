@@ -35,6 +35,7 @@ const NewAside = () => {
   const handleClickGrm = () => {
     setOpenGram(!openGrm);
   };
+  const tipo = "Jogo"
   const [sidebar, setSidebar] = React.useState(false);
   const showSidebar = () => setSidebar(!sidebar);
   return (
@@ -112,7 +113,7 @@ const NewAside = () => {
               </ListItemButton>
 
               <Collapse in={open} timeout="auto" unmountOnExit>
-                {SideData.filter((item) => item.cName.match("Jogo")).map(
+                {SideData.filter((item) => item.cName.match(tipo)).map(
                   (itemFilterName) => (
                     <ListItem key={itemFilterName.id} disablePadding>
                       <ListItemButton>

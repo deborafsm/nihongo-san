@@ -6,6 +6,7 @@ const questoes = SideData;
 console.log(questoes);
 function QuestionGame() {
   // Mostra Score do jogo
+
   const [mostraScore, setMostraScore] = useState(false);
   //   Score atual
   const [score, setScore] = useState(0);
@@ -60,6 +61,7 @@ function QuestionGame() {
               <div className="question-resp-icon">
                 {questoes[questaoAtual].opcoesQuest
                   .sort(() => Math.random() - 0.5)
+                  // .filter((SideData) => SideData.type === "Frutas")
                   .map((opcaoQuest, index) => (
                     <button
                       onClick={() =>
@@ -69,6 +71,7 @@ function QuestionGame() {
                     >
                       <p>{opcaoQuest.titleJpn}</p>
                       {opcaoQuest.respQuest}
+                      <h1>{opcaoQuest.type}</h1>
                     </button>
                   ))}
               </div>

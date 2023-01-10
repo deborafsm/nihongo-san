@@ -20,11 +20,13 @@ export const SideData = [
     questTraducao: "Laranja",
     type:"Frutas",
     opcoesQuest: [
+      
       {
         respQuest: <img src={maca} alt="" style={{ width: "120px" }} />,
         isCorrect: false,
         titleJpn: "リンゴ/アップル",
         titlePt: "Ringo/(Apple)appuru",
+        
       },
       {
         respQuest: <img src={abacaxi} alt="" style={{ width: "120px" }} />,
