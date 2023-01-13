@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from "react-native";
 
 function App() {
   return (
-    <View>
-      <Text>Nihongo-San App</Text>
+    <View style={{marginTop: 100}}>
+      <Text style={{color: "red", fontSize: 30}}>Nihongo-San App</Text>
     </View>
   );
 }
