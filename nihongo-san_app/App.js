@@ -4,9 +4,9 @@ import Header from "./src/components/header";
 function App() {
   return (
     <View style={{ marginTop: 100 }}>
+      <Header/> 
       <Text style={styles.container}>Nihongo-San App</Text>
     </View>
-    <Header/>
   );
 }
 
