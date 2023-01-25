@@ -11,8 +11,8 @@ export default function Header() {
   return (
     <View style={styles.container}>
       <View style={styles.content}>
-        <Text>Header do App</Text>
-        <TouchableOpacity>
+        <Text style={styles.username}>Header do App</Text>
+        <TouchableOpacity activeOpacity={0.9}>
           <Feather name="use" size={27} color="#fff" />
         </TouchableOpacity>
       </View>
