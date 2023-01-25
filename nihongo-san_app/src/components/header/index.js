@@ -1,9 +1,21 @@
 import React from "react";
-import { View, StyleSheet, Text, StatusBar } from "react-native";
+import {
+  View,
+  StyleSheet,
+  Text,
+  StatusBar,
+  TouchableOpacity,
+} from "react-native";
+import { Feather } from "@expo/vector-icons";
 export default function Header() {
   return (
-    <View>
-      <Text>Header do App</Text>
+    <View style={styles.container}>
+      <View style={styles.content}>
+        <Text>Header do App</Text>
+        <TouchableOpacity>
+          <Feather name="use" size={27} color="#fff" />
+        </TouchableOpacity>
+      </View>
     </View>
   );
 }
