@@ -23,5 +23,6 @@ export default function Header() {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#8000ff",
+    flexDirection: 'row'
   },
 });
