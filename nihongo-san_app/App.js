@@ -4,7 +4,7 @@ import Header from "./src/components/header";
 function App() {
   return (
     <View style={{ marginTop: 100 }}>
-      <Header />
+      <Header name="Débora" />
       <Text>PAGINA HOME</Text>
     </View>
   );
