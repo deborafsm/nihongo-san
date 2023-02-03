@@ -1,6 +1,6 @@
 .container-anwser {
   display: flex;
-  background-image: url("../../img/back.jpg");
+  /* background-image: url("../../img/back.jpg"); */
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
