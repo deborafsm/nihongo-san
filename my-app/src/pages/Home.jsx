@@ -6,7 +6,6 @@ function Home() {
     <div>
      
       <div className="img_home">
-        <GameCard/>
        
       </div>
     </div>

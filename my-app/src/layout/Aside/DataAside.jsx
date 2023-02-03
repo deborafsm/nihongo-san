@@ -1,6 +1,7 @@
 import { FaPaintBrush, FaInfoCircle } from "react-icons/fa";
 import { MdQuiz, MdExtension, MdHome } from "react-icons/md";
 import { TbLanguageHiragana } from "react-icons/tb";
+import { GiCardJoker } from "react-icons/gi";
 export const SideData = [
   {
     id: "123",
@@ -35,6 +36,13 @@ export const SideData = [
     title: "Cores",
     path: "/cores",
     icon: <FaPaintBrush />,
+    cName: "Jogo",
+  },
+  {
+    id: "123013",
+    title: "Cards",
+    path: "/cards",
+    icon: <GiCardJoker />,
     cName: "Jogo",
   },
   {
