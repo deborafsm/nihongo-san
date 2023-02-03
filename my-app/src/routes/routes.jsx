@@ -11,7 +11,7 @@ import MemoryGame from "../pages/MemoryGame.jsx";
 import Particulas from "../pages/Particulas.jsx";
 import ParticulaGame from "../pages/ParticulaGame.jsx";
 import QuizGame from "../pages/Quiz.jsx";
-
+import Cards from "../pages/gameCards/index.jsx"
 const Rotas = () => (
   <Layout>
     <Routes>

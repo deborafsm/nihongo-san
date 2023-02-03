@@ -3,7 +3,7 @@ import CardC from '../components/Cards/CardColor'
 import { ContainerCardSokuon } from '../style/CardPage'
 import Title from '../components/Title/index'
 // import aka from '../../img/aka.png'
-import iro from '../json/iro'
+import iro from '../json/iro.json'
 export default function CardColor() {
     return (
         <>
