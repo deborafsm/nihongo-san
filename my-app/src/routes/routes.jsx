@@ -6,7 +6,7 @@ import Home from "../pages/Home";
 import Monografos from "../pages/Card";
 import Digrafos from "../pages/CardDigrafos";
 import Germinados from "../pages/CardGerminados.jsx";
-import Cores from "../pages/cardColor";
+import Cores from "../pages/CardColor";
 import MemoryGame from "../pages/MemoryGame.jsx";
 import Particulas from "../pages/Particulas.jsx";
 import ParticulaGame from "../pages/ParticulaGame.jsx";
