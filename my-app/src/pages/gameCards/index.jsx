@@ -5,31 +5,20 @@ import lugares from "../../img/restaurante.png";
 import familia from "../../img/familia.png";
 import viagem from "../../img/viagem-de-negocios.png";
 import emergencia from "../../img/ligacao-de-emergencia.png";
+import {navigationCard} from "./navigationCard.jsx";
 import styled from "styled-components";
 function index() {
   return (
     <div>
       <div>
         <div>
-          <Button>
-            <img src={cores} alt="" />
-          </Button>
-          <Button>
-            <img src={profissoes} alt="" />
-          </Button>
-          <Button>
-            <img src={lugares} alt="" />
-          </Button>
-          <Button>
-            <img src={familia} alt="" />
-          </Button>
-          <Button>
-            <img src={viagem} alt="" />
-          </Button>
-          <Button>
-            <img src={emergencia} alt="" />
-          </Button>
-          
+          {navigationCard.map((navigation) => (
+            <Button key={navigation.id}>
+              <a href={navigation.route}>
+                <img src={navigation.img} alt="" />
+              </a>
+            </Button>
+          ))}
         </div>
       </div>
     </div>
@@ -46,4 +35,3 @@ const Button = styled.button`
   border: 2px solid #eeeee4;
   border-radius: 33px;
 `;
-

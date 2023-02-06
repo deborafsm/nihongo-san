@@ -31,13 +31,13 @@ export const SideData = [
     icon: <TbLanguageHiragana />,
     cName: "Gramatica",
   },
-  {
-    id: "123013",
-    title: "Cores",
-    path: "/cores",
-    icon: <FaPaintBrush />,
-    cName: "Jogo",
-  },
+  // {
+  //   id: "123013",
+  //   title: "Cores",
+  //   path: "/cores",
+  //   icon: <FaPaintBrush />,
+  //   cName: "Jogo",
+  // },
   {
     id: "123013",
     title: "Cards",
