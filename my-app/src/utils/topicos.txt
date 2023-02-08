@@ -80,3 +80,53 @@ Lagartixa	ヤモリ	Yamori
 
 
 
+Português
+Japonês
+Escrita
+Advogado	Bengoshi	べんごし
+Aeromoça	Suchuwādesu	スチュワーデ
+Agente Imobiliário	Fudousan	ふどうさん
+Agricultor	Nōmin	のうみん
+Arquiteto	Kenchikuka	けんちくか
+Ator	Haiyuu	はいゆう
+Atriz	Joyuu	じょゆう
+Bancário	Ginkōin	ぎんこういん
+Barbeiro	Rihatsushi	りはつ し
+Bombeiro	Shouboushi	しょうぼう し
+Cabeleireiro	Biyoshi	びよし
+Carteiro	Posuto Man	ポストマン
+Cantor / Cantora	Kaikeishi	かいけいし
+Contador	Kashu	かしゅ / 歌手
+Cozinheiro	Kokku	コ ツク
+Dentista	Shikai	しかい
+Desempregado	Mushokusha	むしょく しゃ
+Designer	Dezainā	デザイナー
+Enfermeiro	Kangoshi	かんごし
+Engenheiro	Enjinia	エンジニア
+Empregado de Loja	Kaishain	かいしゃいん
+Empregado Freelancer	Furi-ta	フリーター
+Escritor	Sakka	さっか
+Estudante Universitário	Daigakusei	だいがくせい
+Funcionário Público	Kōmuin	こうむいん
+Garçom	Weitaa	ウェイター
+Empresário (a)	Bijinesuman	ビジネスマン
+Homem Assalariado	Sarari-man	サラリーマン
+Investigador	Kenkyuuin	けん きゅういん
+Jornalista	Jānarisuto	ジャーナリスト
+Juiz	Saibankan	さいばんかん
+Médico	Isha	いしゃ
+Mecânico	Seibishi	せいびし
+Motorista	Untenshu	うんてんしゃ
+Músico	Myūjishan	ミュージシャン
+Pastor de Igreja	Bokushi	ぼくし
+Piloto	Pairotto	パイロット
+Pintor (artista)	Gaka	がか
+Pintor (de paredes)	Penkiya	ペンキや
+Polícia	Omawarisan	おまわりさん
+Político	Seijika	せいじか
+Professor	Kyōshi / Sensei	きょうし / 先生
+Repórter	Kisha	きしゃ
+Secretário	Hisho	ひしょ
+Soldado	Heishi	へいし
+Tradutor	Honyakusha	ほんやくしゃ
+Veterinário	juui	し”いゆうい
