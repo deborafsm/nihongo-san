@@ -13,4 +13,9 @@ export const navigationCard = [
     route: "/cores",
     img:  cores,
   },
+  {
+    id: "12",
+    route: "/cores",
+    img:  profissoes,
+  },
 ];
