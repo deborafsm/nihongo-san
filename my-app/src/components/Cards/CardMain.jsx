@@ -12,7 +12,7 @@ import {
   ContainerTitle,
 } from "../../style/CardStyle.js";
 
-function Card({ HIRAGANA, img, PTB }) {
+function Card({ HIRAGANA, img, ESC, PTB }) {
   return (
     <>
       <FLIP_CONTAINER className="flip-container">
@@ -20,17 +20,19 @@ function Card({ HIRAGANA, img, PTB }) {
         <FLIPER className="flipper">
           <FRONT className="front">
             <ContainerImg>
-              {/* <img src={img} alt="" /> */}
-              <ContainerTitle>
-                <H3>{HIRAGANA}</H3>
-                <H2>{PTB}</H2>
-              </ContainerTitle>
+              <img src={img} className="img" />
+              <ContainerTitle></ContainerTitle>
             </ContainerImg>
+            <H2>{PTB}</H2>
           </FRONT>
           <BACK className="back">
             <ContainerImg>
-              <img src={img} className="img" />
-              <ContainerTitle></ContainerTitle>
+              {/* <img src={img} alt="" /> */}
+              <ContainerTitle>
+                <H3>{HIRAGANA}</H3>
+                <H2>{ESC}</H2>
+                
+              </ContainerTitle>
             </ContainerImg>
           </BACK>
         </FLIPER>

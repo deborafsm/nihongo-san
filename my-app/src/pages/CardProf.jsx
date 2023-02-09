@@ -11,6 +11,7 @@ export default function CardProf() {
             key={profession.id}
             img={profession.img}
             HIRAGANA={profession.esc}
+            ESC={profession.jpn}
             PTB={profession.pt}
           ></Card>
         ))}
