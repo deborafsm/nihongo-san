@@ -1,12 +1,20 @@
-import React from 'react'
-import img from '../../img/img_card.jpg'
-import { FLIP_CONTAINER, FLIPER, FLIP_FOOTER, FRONT, BACK, H3, ContainerImg, ContainerTitle } from '../../style/CardStyle.js'
+import React from "react";
+import img from "../../img/img_card.jpg";
+import {
+  FLIP_CONTAINER,
+  FLIPER,
+  FLIP_FOOTER,
+  FRONT,
+  BACK,
+  H3,
+  H2,
+  ContainerImg,
+  ContainerTitle,
+} from "../../style/CardStyle.js";
 
-function Card({ HIRAGANA, img }) {
+function Card({ HIRAGANA, img, PTB }) {
   return (
     <>
-
-
       <FLIP_CONTAINER className="flip-container">
         {/* <input type='checkbox' className="sw"></input> */}
         <FLIPER className="flipper">
@@ -14,26 +22,21 @@ function Card({ HIRAGANA, img }) {
             <ContainerImg>
               {/* <img src={img} alt="" /> */}
               <ContainerTitle>
-                
                 <H3>{HIRAGANA}</H3>
+                <H2>{PTB}</H2>
               </ContainerTitle>
             </ContainerImg>
           </FRONT>
           <BACK className="back">
             <ContainerImg>
               <img src={img} className="img" />
-              <ContainerTitle>
-
-              </ContainerTitle>
+              <ContainerTitle></ContainerTitle>
             </ContainerImg>
           </BACK>
         </FLIPER>
-
       </FLIP_CONTAINER>
-
     </>
-
-  )
+  );
 }
 
-export default Card
+export default Card;
