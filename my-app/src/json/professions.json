@@ -1,0 +1,277 @@
+[{
+    "id":"1",
+    "pt":"Advogado",
+    "jpn":"Bengoshi",
+    "esc":"べんごし"
+},
+{
+    "id":"2",
+    "pt":"Aeromoça",
+    "jpn":"Suchuwādesu",
+    "esc":"スチュワーデ"
+},
+{
+    "id":"3",
+    "pt":"Agente Imobiliário",
+    "jpn":"Fudousan",
+    "esc":"ふどうさん"
+},
+{
+    "id":"4",
+    "pt":"Agricultor",
+    "jpn":"Nōmin",
+    "esc":"のうみん"
+},
+{
+    "id":"5",
+    "pt":"Arquiteto",
+    "jpn":"Kenchikuka",
+    "esc":"けんちくか"
+},
+{
+    "id":"6",
+    "pt":"Ator",
+    "jpn":"Haiyuu",
+    "esc":"はいゆう"
+},
+{
+    "id":"7",
+    "pt":"Atriz",
+    "jpn":"Joyuu",
+    "esc":"じょゆう"
+},
+{
+    "id":"8",
+    "pt":"Bancário",
+    "jpn":"Ginkōin",
+    "esc":"ぎんこういん"
+},
+{
+    "id":"9",
+    "pt":"Barbeiro",
+    "jpn":"Rihatsushi",
+    "esc":"りはつし"
+},
+{
+    "id":"10",
+    "pt":"Bombeiro",
+    "jpn":"Shouboushi",
+    "esc":"しょうぼうし"
+},
+{
+    "id":"11",
+    "pt":"Cabeleireiro",
+    "jpn":"Biyoshi",
+    "esc":"びよし"
+},
+{
+    "id":"12",
+    "pt":"Carteiro",
+    "jpn":"Posuto Man",
+    "esc":"ポストマン"
+},
+{
+    "id":"13",
+    "pt":"Cantor / Cantora",
+    "jpn":"Kaikeishi",
+    "esc":"かいけいし"
+},
+{
+    "id":"14",
+    "pt":"Contador",
+    "jpn":"Kashu",
+    "esc":"かしゅ / 歌手"
+},
+{
+    "id":"15",
+    "pt":"Cozinheiro",
+    "jpn":"Kokku",
+    "esc":"コツク"
+},
+{
+    "id":"16",
+    "pt":"Dentista",
+    "jpn":"Shikai",
+    "esc":"しかい"
+},
+{
+    "id":"17",
+    "pt":"Desempregado",
+    "jpn":"Mushokusha",
+    "esc":"むしょく しゃ"
+},
+{
+    "id":"18",
+    "pt":"Designer",
+    "jpn":"Dezainā",
+    "esc":"デザイナー"
+},
+{
+    "id":"19",
+    "pt":"Enfermeiro",
+    "jpn":"Kangoshi",
+    "esc":"かんごし"
+},
+{
+    "id":"20",
+    "pt":"Engenheiro",
+    "jpn":"Enjinia",
+    "esc":"エンジニア"
+},
+{
+    "id":"21",
+    "pt":"Empregado de Loja",
+    "jpn":"Kaishain",
+    "esc":"かいしゃいん"
+},
+{
+    "id":"22",
+    "pt":"Empregado Freelancer",
+    "jpn":"Furi-ta",
+    "esc":"フリーター"
+},
+{
+    "id":"23",
+    "pt":"Escritor",
+    "jpn":"Sakka",
+    "esc":"さっか"
+},
+{
+    "id":"24",
+    "pt":"Estudante Universitário ",
+    "jpn":"Daigakusei",
+    "esc":"だいがくせい"
+},
+{
+    "id":"25",
+    "pt":"Funcionário Público",
+    "jpn":"Kōmuin",
+    "esc":"こうむいん"
+},
+{
+    "id":"26",
+    "pt":"Garçom",
+    "jpn":"Weitaa",
+    "esc":"ウェイター"
+},
+{
+    "id":"27",
+    "pt":"Empresário (a)",
+    "jpn":"Bijinesuman",
+    "esc":"ビジネスマン"
+},
+{
+    "id":"28",
+    "pt":"Homem Assalariado",
+    "jpn":"Sarari-man",
+    "esc":"サラリーマン"
+},
+{
+    "id":"29",
+    "pt":"Investigador",
+    "jpn":"Kenkyuuin",
+    "esc":"けん きゅういん"
+},
+{
+    "id":"30",
+    "pt":"Jornalista",
+    "jpn":"Jānarisuto",
+    "esc":"ジャーナリスト"
+},
+{
+    "id":"31",
+    "pt":"Juiz",
+    "jpn":"Saibankan",
+    "esc":"さいばんかん"
+},
+{
+    "id":"32",
+    "pt":"Médico",
+    "jpn":"Isha",
+    "esc":"いしゃ"
+},
+{
+    "id":"33",
+    "pt":"Mecânico",
+    "jpn":"Seibishi",
+    "esc":"せいびし"
+},
+{
+    "id":"34",
+    "pt":"Motorista",
+    "jpn":"Untenshu",
+    "esc":"うんてんしゃ"
+},
+{
+    "id":"35",
+    "pt":"Músico",
+    "jpn":"Myūjishan",
+    "esc":"ミュージシャン"
+},
+{
+    "id":"36",
+    "pt":"Piloto",
+    "jpn":"Pairotto",
+    "esc":"パイロット"
+},
+{
+    "id":"37",
+    "pt":"Pintor (artista)",
+    "jpn":"Gaka",
+    "esc":"がか"
+},
+{
+    "id":"38",
+    "pt":"Pintor (de paredes)",
+    "jpn":"Penkiya",
+    "esc":"ペンキや"
+},
+{
+    "id":"39",
+    "pt":"Polícia",
+    "jpn":"Omawarisan",
+    "esc":"おまわりさん"
+},
+{
+    "id":"40",
+    "pt":"Político",
+    "jpn":"Seijika",
+    "esc":"せいじか"
+},
+{
+    "id":"41",
+    "pt":"Professor",
+    "jpn":"Kyōshi / Sensei",
+    "esc":"きょうし / 先生"
+},
+{
+    "id":"42",
+    "pt":"Repórter",
+    "jpn":"Kisha",
+    "esc":"きしゃ"
+},
+{
+    "id":"43",
+    "pt":"Secretário",
+    "jpn":"Hisho",
+    "esc":"ひしょ"
+},
+{
+    "id":"44",
+    "pt":"Soldado",
+    "jpn":"Heishi",
+    "esc":"へいし"
+},
+{
+    "id":"45",
+    "pt":"Tradutor",
+    "jpn":"Honyakusha",
+    "esc":"ほんやくしゃ"
+},
+{
+    "id":"45",
+    "pt":"Veterinário",
+    "jpn":"juui",
+    "esc":"し”いゆうい"
+}
+]
