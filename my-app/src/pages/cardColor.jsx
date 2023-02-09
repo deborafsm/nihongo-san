@@ -1,5 +1,5 @@
 import React from 'react'
-import CardC from '../components/Cards/CardColor'
+import CardC from '../components/Cards/CardMain'
 import { ContainerCardSokuon } from '../style/CardPage'
 import Title from '../components/Title/index'
 // import aka from '../../img/aka.png'

@@ -15,7 +15,7 @@ export const navigationCard = [
   },
   {
     id: "12",
-    route: "/cores",
+    route: "/profession",
     img:  profissoes,
   },
 ];
