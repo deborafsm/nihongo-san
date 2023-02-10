@@ -11,11 +11,17 @@ export const navigationCard = [
   {
     id: "1",
     route: "/cores",
-    img:  cores,
+    img: cores,
+    pt: "Cores",
+    name: "Iro",
+    esc: "色 いろ",
   },
   {
     id: "12",
     route: "/profession",
-    img:  profissoes,
+    img: profissoes,
+    pt: "Profissões",
+    name: "Shokugyou",
+    esc: "職業",
   },
 ];

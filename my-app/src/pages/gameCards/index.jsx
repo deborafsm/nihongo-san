@@ -5,7 +5,7 @@ import lugares from "../../img/restaurante.png";
 import familia from "../../img/familia.png";
 import viagem from "../../img/viagem-de-negocios.png";
 import emergencia from "../../img/ligacao-de-emergencia.png";
-import {navigationCard} from "./navigationCard.jsx";
+import { navigationCard } from "./navigationCard.jsx";
 import styled from "styled-components";
 function index() {
   return (
@@ -17,6 +17,7 @@ function index() {
               <a href={navigation.route}>
                 <img src={navigation.img} alt="" />
               </a>
+                <p>{navigation.name}</p>
             </Button>
           ))}
         </div>
