@@ -17,6 +17,151 @@ Tópicos
 - Roupas
 - legumes
 - frutas
+動物 - どうぶつ - Doubutsu - Animais
+
+Animais domésticos
+Ordem Alfabética:
+
+Bezerro = Ko-ushi = 子牛
+Bode = Yagi = 山羊
+Boi = Oushi = 牡牛
+Búfalo = Yagyuu = 野牛
+Cabrito = Koyagi = 小山羊
+Cão = Inu = 犬
+Cãozinho - Koinu = 小犬
+Carneiro = Ohitsuji = 牡羊
+Cavalo = Uma = 　馬
+Égua = Meuma = 雌馬
+Gado = Kachiku = 家畜
+Galinha = Niwatori = 鶏
+Gato = Neko = 猫
+Jumento = Roba = 驢馬
+Ovelha = Hitsuji = 羊
+Pássaro = Tori = 鳥
+Porco = Buta = 豚
+Potro = Kouma = 子馬
+Rato = Nezumi = 鼠
+Vaca = Ushi = 牛
+Animais selvagens
+Alce = Herajika = 箆鹿
+Baleia = Kujira = 鯨
+Bisão = Baffaroo = バッファロー
+Cobra = Hebi = 蛇
+Castor = Biba = ビバ　
+Coelho = Usagi = 兎
+Cheetah = Chiita = チータ
+Camelo = Rakuda = 駱駝
+Cangaru = Kangaruu　=　カンガルー
+Cervo = Shika　=　鹿
+Coala = Koara = コアラ
+Crocodilo = Wani = 鰐
+Doninha = Itachi = 鼬
+Elefante = Zou = 象
+Esquilo = Risu = 栗鼠
+Esquilo Voador = Musasabi = ムササビ
+Escorpião = Sasori = 蠍
+Golfinho = Iruka = 海豚
+Foca = Ashika = 海驢
+Gorila = Gorira = ゴリラ
+Girafa = Kirin = 麒麟
+Hiena = Haiena　=　ハイエナ
+Hipopótamo = Kaba = 河馬
+Leão = Shishi ou Raion = 獅子 / ライオン
+Lontra = Kawauso = 獺
+Tigre = Tora = 虎
+Lagarto = Tokage = 蜥蜴
+Leopardo = Hyou = 豹
+Lobo = Ookami = 狼
+Ouriço = Harinezumi = 針鼠
+Macaco = Saru = 猿
+Rã = Kaeru = 蛙
+Rinoceronte = Sai = 犀
+Sapo = Gama = 蝦蟇
+Tartaruga = Kame = 亀
+Salamandra = Sanshouuo = 山椒魚
+Urso = Kuma = 熊
+Zebra = Shima-Uma = 縞馬
+Guaxinim = Araiguma = 荒熊
+Texugo = Anaguma = 穴熊
+Tubarão = Same = 鮫
+Baiacu = Fugu = 河豚
+Raposa = Kitsune = 狐
+Peixe = Sakana = 魚
+Morcego = Koumori = 蝙蝠
+Águia = Washi = 鷲
+Pinguim = Pengin = ペンギン
+Insetos
+Inseto = Mushi = 虫
+Borboleta = Chou =　蝶
+Louva-a-Deus = Kamakiri =　蟷螂
+Mosca = Hae = 蝿
+Mosquito = Ka = 蚊
+Besouro = Kouchuu = 甲虫
+Vaga-Lume = Hotaru = 蛍
+Gafanhoto = Inago = 蝗
+
+Baleia
+kujira 鯨
+Cachorro
+inu 犬
+Cavalo
+uma 馬
+Cervo
+shika 鹿
+Cobra ou serpente
+hebi 蛇
+Coelho
+usagi 兎
+Coruja
+fukurou 梟
+Elefante
+zou 蔵
+Falcão
+taka 鷹
+Formiga
+ari 蟻
+Galinha
+niwatori 鶏
+Gato
+neko 猫
+Inseto (genérico) ou minhoca
+mushi 虫
+Leão
+shishi 獅子
+Lobo
+ookami 狼
+Macaco
+saru 猿
+Morcego
+koumori 蝙蝠
+Passáro
+tori 鳥
+Panda
+panda パンダ (é panda mesmo)
+Pato
+kamo 鴨
+Peixe
+sakana 魚
+Porco
+buta 豚
+Raposa
+kitsune 狐
+Rato
+nezumi 鼠
+Sapo
+kaeru 蛙
+Tartaruga
+kame 亀
+Tigre
+tora 虎
+Tubarão
+same 鮫
+Urso
+kuma 熊
+Vaca
+ushi 牛
+
+
 
 Português	Kana	Romaji	Kanji
 Animal	どうぶつ	Doubutsu	動物
