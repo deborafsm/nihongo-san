@@ -9,10 +9,10 @@ import daughter from "../../img/daughter.png";
 import woman from "../../img/woman.png";
 import geisha from "../../img/geisha.png";
 import man from "../../img/man.png";
-import cachorro from "../../img/cachorro.png";
-import gato from "../../img/gato.png";
-import coelho from "../../img/coelho.png";
-import rato from "../../img/rato.png";
+import cachorro from "../../img/animais/cachorro.png";
+import gato from "../../img/animais/gato.png";
+import coelho from "../../img/animais/coelho.png";
+import rato from "../../img/animais/rato.png";
 export const SideData = [
   {
     questTextHira: "オレンジ",

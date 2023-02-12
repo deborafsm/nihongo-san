@@ -4,7 +4,7 @@ import lugares from "../../img/restaurante.png";
 import familia from "../../img/familia.png";
 import viagem from "../../img/viagem-de-negocios.png";
 import emergencia from "../../img/ligacao-de-emergencia.png";
-import animal from "../../img/leao_button.png";
+import animal from "../../img/animais/leao_button.png";
 
 // id,route,img
 
