@@ -11,7 +11,11 @@ import cavalo from "../img/animais/cavalo.png";
 import cervo from "../img/animais/cervo.png";
 import cobra from "../img/animais/cobra.png";
 import coelho from "../img/animais/coelho.png";
-
+import elefante from "../img/animais/elefante.png";
+import falcao from "../img/animais/falcao.png";
+import formiga from "../img/animais/formiga.png";
+import galinha from "../img/animais/galinha.png";
+import coruja from "../img/animais/coruja.png";
 
 export const animais = [
   {
@@ -93,7 +97,43 @@ export const animais = [
     img: coelho,
   },
   {
-    id: "1",
+    id: "14",
+    pt: "Coruja",
+    jpn: "Fukurou",
+    esc: "梟",
+    img: coruja,
+  },
+  {
+    id: "15",
+    pt: "Elefante",
+    jpn: "zou",
+    esc: "蔵",
+    img: elefante,
+  },
+  {
+    id: "16",
+    pt: "Falcão",
+    jpn: "taka",
+    esc: "鷹",
+    img: falcao,
+  },
+  {
+    id: "17",
+    pt: "Formiga",
+    jpn: "ari",
+    esc: "蟻",
+    img: formiga,
+  },
+  {
+    id: "18",
+    pt: "Galinha",
+    jpn: "niwatori",
+    esc: "鶏",
+    img: galinha,
+  },
+
+  {
+    id: "20",
     pt: "Gato",
     jpn: "Neko",
     esc: "猫",
