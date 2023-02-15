@@ -16,6 +16,13 @@ import falcao from "../img/animais/falcao.png";
 import formiga from "../img/animais/formiga.png";
 import galinha from "../img/animais/galinha.png";
 import coruja from "../img/animais/coruja.png";
+import insetos from "../img/animais/insetos.png";
+import leao from "../img/animais/leao.png";
+import lobo from "../img/animais/lobo.png";
+import macaco from "../img/animais/macaco.png";
+import morcego from "../img/animais/morcego.png";
+import passaro from "../img/animais/passaro.png";
+import panda from "../img/animais/panda.png";
 
 export const animais = [
   {
@@ -138,5 +145,54 @@ export const animais = [
     jpn: "Neko",
     esc: "猫",
     img: gato,
+  },
+  {
+    id: "21",
+    pt: "Inseto / Minhoca",
+    jpn: "mushi",
+    esc: "虫",
+    img: insetos,
+  },
+  {
+    id: "22",
+    pt: "Leão",
+    jpn: "Shishi",
+    esc: "獅子",
+    img: leao,
+  },
+  {
+    id: "23",
+    pt: "Lobo",
+    jpn: "Ookami",
+    esc: "狼",
+    img: lobo,
+  },
+  {
+    id: "24",
+    pt: "Macaco",
+    jpn: "Saru",
+    esc: "猿",
+    img: macaco,
+  },
+  {
+    id: "25",
+    pt: "Morcego",
+    jpn: "Koumori",
+    esc: "蝙蝠",
+    img:  morcego,
+  },
+  {
+    id: "26",
+    pt: "Passáro",
+    jpn: "Tori",
+    esc: "鳥",
+    img:  passaro,
+  },
+  {
+    id: "27",
+    pt: "Panda",
+    jpn: "Panda",
+    esc: "パンダ",
+    img:  panda,
   },
 ];
