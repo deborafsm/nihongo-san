@@ -23,7 +23,17 @@ import macaco from "../img/animais/macaco.png";
 import morcego from "../img/animais/morcego.png";
 import passaro from "../img/animais/passaro.png";
 import panda from "../img/animais/panda.png";
-
+import pato from "../img/animais/pato.png";
+import peixe from "../img/animais/peixe.png";
+import porco from "../img/animais/porco.png";
+import raposa from "../img/animais/raposa.png";
+import rato from "../img/animais/rato.png";
+import sapo from "../img/animais/sapo.png";
+import tartaruga from "../img/animais/tartaruga.png";
+import tigre from "../img/animais/tigre.png";
+import tubarao from "../img/animais/tubarao.png";
+import urso from "../img/animais/urso.png";
+import vaca from "../img/animais/vaca.png";
 export const animais = [
   {
     id: "4",
@@ -179,20 +189,97 @@ export const animais = [
     pt: "Morcego",
     jpn: "Koumori",
     esc: "蝙蝠",
-    img:  morcego,
+    img: morcego,
   },
   {
     id: "26",
     pt: "Passáro",
     jpn: "Tori",
     esc: "鳥",
-    img:  passaro,
+    img: passaro,
   },
   {
     id: "27",
     pt: "Panda",
     jpn: "Panda",
     esc: "パンダ",
-    img:  panda,
+    img: panda,
+  },
+  {
+    id: "28",
+    pt: "Pato",
+    jpn: "Kamo",
+    esc: "鴨",
+    img: pato,
+  },
+  {
+    id: "29",
+    pt: "Peixe",
+    jpn: "Sakana",
+    esc: "魚",
+    img: peixe,
+  },
+  {
+    id: "30",
+    pt: "Porco",
+    jpn: "Buta",
+    esc: "豚",
+    img: porco,
+  },
+  {
+    id: "31",
+    pt: "Raposa",
+    jpn: "Kitsune",
+    esc: "狐",
+    img: raposa,
+  },
+  {
+    id: "31",
+    pt: "Rato",
+    jpn: "Nezumi",
+    esc: "鼠",
+    img: rato,
+  },
+  {
+    id: "32",
+    pt: "Sapo",
+    jpn: "Kaeru",
+    esc: "蛙",
+    img: sapo,
+  },
+  {
+    id: "33",
+    pt: "Tartaruga",
+    jpn: "Kame",
+    esc: "亀",
+    img: tartaruga,
+  },
+  {
+    id: "34",
+    pt: "Tigre",
+    jpn: "Tora",
+    esc: "虎",
+    img: tigre,
+  },
+  {
+    id: "35",
+    pt: "Tubarão",
+    jpn: "Same",
+    esc: "鮫",
+    img: tubarao,
+  },
+  {
+    id: "36",
+    pt: "Urso",
+    jpn: "Kuma",
+    esc: "熊",
+    img: urso,
+  },
+  {
+    id: "37",
+    pt: "Vaca",
+    jpn: "Ushi",
+    esc: "牛",
+    img: vaca,
   },
 ];
