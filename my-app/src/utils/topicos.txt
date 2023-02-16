@@ -4,6 +4,28 @@
 4 - Cores 
 5 - Jogo da Memoria
 6 - Particulas 
+Português	Kanji	Kana	Rōmaji
+Chapéu	帽子	ぼうし	bōshi
+Brincos	...	ピアス	piasu
+Óculos	眼鏡	めがね	megane
+Colar	...	ネックレス	nekkuresu
+Camisa	...	シャツ	shatsu
+Blusa	...	ブラウス	burausu
+sweatshirt	...	トレーナー	toreenaa
+Casaco	...	ジャケット	jaketto
+Luvas	手袋	てぶくろ	tebukuro
+Echarpe	...	スカーフ	sukaafu
+Cinto	...	ベルト	beruto
+jeans	...	ジーンズ	jiinzu
+Calças	...	ズボン	zubon
+Sapatos	靴	くつ	kutsu
+Meias	靴下	くつした	kutsushita
+Relógio	時計	とけい	tokei
+Anel	指輪	ゆびわ	yubiwa
+Fato	...	スーツ	suutsu
+Kimono	着物	きもの	kimono
+Yukata	浴衣	ゆかた	yukata
+Sandálias	...	サンダル	sandaru
 
 
 Tópicos
