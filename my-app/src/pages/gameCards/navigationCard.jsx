@@ -5,6 +5,7 @@ import familia from "../../img/familia.png";
 import viagem from "../../img/viagem-de-negocios.png";
 import emergencia from "../../img/ligacao-de-emergencia.png";
 import animal from "../../img/animais/leao_button.png";
+import roupa from "../../img/roupas/camiseta.png";
 
 // id,route,img
 
@@ -32,5 +33,13 @@ export const navigationCard = [
     pt: "Animais",
     name: "Doubutsu ",
     esc: "動物 - どうぶつ",
+  },
+  {
+    id: "4",
+    route: "/roupas",
+    img: roupa,
+    pt: "Roupas",
+    name: "Fuku ",
+    esc: "服",
   },
 ];
