@@ -11,9 +11,10 @@ import MemoryGame from "../pages/MemoryGame.jsx";
 import Particulas from "../pages/Particulas.jsx";
 import ParticulaGame from "../pages/ParticulaGame.jsx";
 import QuizGame from "../pages/Quiz.jsx";
-import Cards from "../pages/gameCards/index.jsx"
+import Cards from "../pages/gameCards/index.jsx";
 import CardProf from "../pages/CardProf";
-import CardAnimal from '../pages/CardAnimals'
+import CardAnimal from "../pages/CardAnimals";
+import CardRoupas from "../pages/CardRoupas";
 
 const Rotas = () => (
   <Layout>
@@ -25,6 +26,7 @@ const Rotas = () => (
       <Route path="/cores" element={<Cores />} />
       <Route path="/profession" element={<CardProf />} />
       <Route path="/animals" element={<CardAnimal />} />
+      <Route path="/roupas" element={<CardRoupas />} />
       <Route path="/game" element={<MemoryGame />} />
       <Route path="/particula" element={<Particulas />}></Route>
       <Route path="/particula-game" element={<ParticulaGame />}></Route>
