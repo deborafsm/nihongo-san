@@ -8,7 +8,7 @@ export default function CardRoupas() {
         <Card
           key={roupa.id}
           ESC={roupa.jpn}
-          HIRAGANA={roupa.esc}
+          HIRAGANA={roupa.kana}
           PTB={roupa.pt}
           img={roupa.img}
         ></Card>
