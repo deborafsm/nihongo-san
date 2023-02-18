@@ -2,6 +2,24 @@ import chapeu from "../img/roupas/chapeu.png";
 import brinco from "../img/roupas/brinco.png";
 import camiseta from "../img/roupas/camiseta.png";
 import oculos from "../img/roupas/oculos-de-sol.png";
+import colar from "../img/roupas/colar-de-perolas.png";
+import camisa from "../img/roupas/camisa.png";
+import blusa from "../img/roupas/blusa.png";
+import moletom from "../img/roupas/moletom.png";
+import jaqueta from "../img/roupas/jaqueta.png";
+import luvas from "../img/roupas/luvas.png";
+import encharpe from "../img/roupas/cachecol.png";
+import cinto from "../img/roupas/cinto.png";
+import jeans from "../img/roupas/jeans.png";
+import calca from "../img/roupas/calca.png";
+import salpatos from "../img/roupas/salpatos.png";
+import meias from "../img/roupas/meias.png";
+import relogio from "../img/roupas/relogio.png";
+import anel from "../img/roupas/anel.png";
+import terno from "../img/roupas/terno.png";
+import kimono from "../img/roupas/kimono.png";
+import yukata from "../img/roupas/yukata.png";
+import sandalias from "../img/roupas/sandalias.png";
 export const roupas = [
   {
     id: "1",
@@ -44,14 +62,6 @@ export const roupas = [
     img: colar,
   },
   {
-    id: "6",
-    pt: "Camisa",
-    jpn: "shatsu",
-    kana: "シャツ",
-    kanji: "",
-    img: camisa,
-  },
-  {
     id: "7",
     pt: "Blusa",
     jpn: "burausu",
@@ -65,7 +75,7 @@ export const roupas = [
     jpn: "toreenaa",
     kana: "トレーナー",
     kanji: "",
-    img: toreenaa,
+    img: moletom,
   },
   {
     id: "9",
@@ -113,7 +123,7 @@ export const roupas = [
     jpn: "zubon",
     kana: "ズボン",
     kanji: "",
-    img: calcas,
+    img: calca,
   },
   {
     id: "15",
@@ -121,7 +131,7 @@ export const roupas = [
     jpn: "kutsu",
     kana: "くつ",
     kanji: "靴",
-    img: sapato,
+    img: salpatos,
   },
   {
     id: "16",
@@ -177,6 +187,6 @@ export const roupas = [
     jpn: "sandaru",
     kana: "サンダル",
     kanji: "",
-    img: sandalia,
+    img: sandalias,
   },
 ];
