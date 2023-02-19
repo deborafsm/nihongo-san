@@ -73,9 +73,10 @@ export const animais = [
 
   {
     id: "9",
-    pt: "Cão",
+    pt: "Cachorro",
     jpn: "Inu",
-    esc: "犬",
+    esc: "いぬ",
+    kanji:"犬",
     img: cao,
   },
   {
@@ -89,7 +90,8 @@ export const animais = [
     id: "11",
     pt: "Cavalo",
     jpn: "Uma",
-    esc: "馬",
+    esc: "うま",
+    kanji:"馬",
     img: cavalo,
   },
   {
@@ -145,7 +147,8 @@ export const animais = [
     id: "18",
     pt: "Galinha",
     jpn: "niwatori",
-    esc: "鶏",
+    esc: "にわとり",
+    kanji:"鶏",
     img: galinha,
   },
 
@@ -153,14 +156,16 @@ export const animais = [
     id: "20",
     pt: "Gato",
     jpn: "Neko",
-    esc: "猫",
+    esc: "ねこ",
+    kanji:"猫",
     img: gato,
   },
   {
     id: "21",
     pt: "Inseto / Minhoca",
     jpn: "mushi",
-    esc: "虫",
+    esc: "むし",
+    kanji:"虫",
     img: insetos,
   },
   {
@@ -192,10 +197,19 @@ export const animais = [
     img: morcego,
   },
   {
+    id: "38",
+    pt: "Ovelha",
+    jpn: "Hitsuji",
+    esc: "ひつじ",
+    kanji:"羊",
+    img: ovelha,
+  },
+  {
     id: "26",
     pt: "Passáro",
     jpn: "Tori",
-    esc: "鳥",
+    esc: "とり",
+    kanji: "鳥",
     img: passaro,
   },
   {
@@ -209,21 +223,24 @@ export const animais = [
     id: "28",
     pt: "Pato",
     jpn: "Kamo",
-    esc: "鴨",
+    esc: "かも",
+    kanji:"鴨",
     img: pato,
   },
   {
     id: "29",
     pt: "Peixe",
     jpn: "Sakana",
-    esc: "魚",
+    esc: "さかな",
+    kanji: "魚",
     img: peixe,
   },
   {
     id: "30",
     pt: "Porco",
     jpn: "Buta",
-    esc: "豚",
+    esc: "ぶた",
+    kanji:"豚",
     img: porco,
   },
   {
@@ -237,7 +254,8 @@ export const animais = [
     id: "31",
     pt: "Rato",
     jpn: "Nezumi",
-    esc: "鼠",
+    esc: "ねずみ",
+    kanji:"鼠",
     img: rato,
   },
   {
@@ -279,7 +297,9 @@ export const animais = [
     id: "37",
     pt: "Vaca",
     jpn: "Ushi",
-    esc: "牛",
+    esc: "うし",
+    kanji:"牛",
     img: vaca,
   },
+  
 ];
