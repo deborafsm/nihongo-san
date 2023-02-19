@@ -151,8 +151,8 @@ export const animais = [
   {
     id: "22",
     pt: "Leão",
-    jpn: "Raion / shishi",
-    esc: "— / しし",
+    jpn: "shishi",
+    esc: "しし",
     kanji: "獅子",
     img: leao,
   },
