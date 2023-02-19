@@ -121,6 +121,108 @@ Mosquito = Ka = 蚊
 Besouro = Kouchuu = 甲虫
 Vaga-Lume = Hotaru = 蛍
 Gafanhoto = Inago = 蝗
+Rōmaji	Português	Kanji	Hiragana	Katakana	Inglês
+Doubutsu	Animal	動物	どうぶつ	ドウブツ	animal
+Tori	Pássaro	鳥	とり	トリ	bird
+Sakana	Peixe	魚	さかな	サカナ	fish
+Kai	Marisco/Crustáceo	貝	かい	カイ	shellfish
+mushi	Inseto	虫	むし	ムシ	insect
+Harinezumi	Ouriço	針鼠	 	ハリネズミ	 
+Kachiku	Gado	家畜	かちく	カチク	 
+Niwatori	Galinha	鶏	にわとり	ニワトリ	chicken
+Hiyoko	Pintinho	雛	ひよこ	ヒヨコ	chick
+neko	Gato	猫	ねこ	ネコ	cat
+nezumi	Rato	鼠	ねずみ	ネズミ	rat / mouse
+roba	Burro	驢馬	ろば	ロバ	donkey
+buta	Porco	豚	ぶた	ブタ	pig
+uma	Cavalo	馬	うま	ウマ	horse
+niwatori	Galinha	鶏	にわとり	ニワトリ	chicken
+gachou	Ganso	鵞鳥	がちょう	ガチョウ	goose
+kamo	Pato selvagem	鴨	かも	カモ	wild duck
+ahiru	Pato	家鴨	あひる	アヒル	domestic duck
+hitsuji	Ovelha	羊	ひつじ	ヒツジ	sheep
+ushi	Vaca	牛	うし	ウシ	cow
+hamusutaa	Hamster	—	—	ハムスター	hamster
+inu	Cachorro	犬	いぬ	イヌ	dog
+shika	Cervo	鹿	しか	シカ	deer
+usagi	Coelho	兎	うさぎ	ウサギ	rabbit
+kirin	Girafa	麒麟	きりん	キリン	giraffe
+rakuda	Camelo	駱駝	らくだ	ラクダ	camel
+kobu	Dromedário	瘤	こぶ	コブ	hump
+zou	Elefante	象	ぞう	ゾウ	elephant
+panda	Panda	—	—	パンダ	panda
+kangaruu	Canguru	—	—	カンガルー	kangaroo
+hyou	Leopardo / Pantera	豹	ひょう	ヒョウ	leopard / panther
+kitsune	Raposa	狐	きつね	キツネ	fox
+raion / shishi	Leão	獅子	— / しし	ライオン	lion
+tora	Tigre	虎	とら	トラ	tiger
+wani	Crocodilo / jacaré	鰐	わに	ワニ	crocodile /alligator
+kaba	Hipopotamo	河馬	かば	カバ	hippopotamus
+kuma	Urso	熊	くま	クマ	bear
+ookami	Lobo	狼	おおかみ	オオカミ	wolf
+saru	Macaco	猿	さる	サル	monkey
+tanuki	Guaxinim	狸	たぬき	タヌキ	raccoon dog
+gorira	Gorila	—	—	ゴリラ	gorilla
+shimauma	Zebra	縞馬	しまうま	シマウマ	zebra
+dachou	Avestruz	駝鳥	だちょう	ダチョウ	ostrich
+inoshishi	Javali	猪	いのしし	イノシシ	boar
+sai	Rinoceronte	犀	さい	サイ	rhino
+tsuno	Chifre	角	つの	ツノ	horn
+hebi	Cobra / Serpente	蛇	へび	ヘビ	snake
+kamereon	Camaleão	—	—	カメレオン	chameleon
+yamori	Largatixa	－－	やもり	ヤモリ	gecko
+katatsumuri	Caracol	蝸牛	かたつむり	カタツムリ	snail
+tokage	Lagarto	蜥蜴	とかげ	トカゲ	lizard
+kame	Tartaruga	亀	かめ	カメ	tortoise / turtle
+koura	Concha	甲羅	こうら	コウラ	shell
+koumori	Morcego	蝙蝠	こうもり	コウモリ	bat
+chinpanjii	Chimpanzé	—	—	チンパンジー	chimpanzee
+koara	Coala	—	—	コアラ	koala
+chiitaa	Chita / Leopardo	—	—	チーター	cheetah
+shirokuma	Urso Polar	白熊	しろくま	シロクマ	polar bear
+arikui	Tamanduá	蟻食	ありくい	アリクイ	anteater
+kamonohashi	Ornitorrinco	鴨嘴	かものはし	カモノハシ	platypus
+araiguma	Guaxinim	浣熊	あらいぐま	アライグマ	raccoon
+yamaarashi	Porco-espinho	豪猪	やまあらし	ヤマアラシ	porcupine
+chinchira	Chinchila	—	—	チンチラ	chinchilla
+risu	Esquilo	栗鼠	りす	リス	squirrel
+yagi	Cabra	山羊	やぎ	ヤギ	goat
+Karasu	Corvo	鴉・烏	—	カラス	Crow
+Suzume	Pardal	雀	すずめ	ススメ	sparrow
+Hachi	Abelha	蜂	はち	ハチ	bee
+Ika	Lula	魷	いか	イカ	squid
+Tako	Polvo	蛸	たこ	タコ	octopus
+Ari	Formiga	蟻	あり	アリ	ant
+Koi	Carpa	鯉	こい	コイ	carp
+Kujira	Baleia	鯨	くじら	クジラ	whale
+Hakuchou	Cisne	白鳥	はくちょう	ハクチョウ	swan
+Kumo	Aranha	蜘蛛	くも	クモ	spider
+Same	Tubarão	鮫	さ	サメ	shark
+Yagi	Cabra	山羊	やぎ	ヤギ	goat
+Washi	Águia	鷲	わし	ワシ	eagle
+Koinu	Cãozinho	小犬	こいぬ	コイヌ	puppy
+Ohitsuji	Carneiro	牡羊	おひつじ	オヒツジ	sheep
+Meuma	Égua	雌馬	めうま	メウマ	mare
+Kouma	Potro	子馬	こうま	コウマ	foal
+Herajika	Alce	箆鹿	へらじか	ヘラジカ	moose
+Baffaroo	Bisão	—	ばっふぁろ	バッファロー	bison
+Biba	Castor	—	びば	ビバ	beaver
+Itachi	Doninha	鼬	いたち	イタチ	weasel
+Ashika	Foca	海驢	あしか	アシカ	seal
+Iruka	Golfinho	海豚	いるか	イルカ	dolphin
+Kaeru	Rã	蛙	かえる	カエフ	frog
+Gama	Sapo	蝦蟇	がま	ハエ	toad
+Sanshouuo	Salamandra	山椒魚	さんしょううお	サンショウウオ	salamander
+Fugu	Baiacu	河豚	ふぐ	フグ	puffer
+Chou	Borboleta	蝶	ちょう	チョウ	butterfly
+Kamakiri	Louva-a-Deus	蟷螂	かまきり	カマキリ	soothsayer
+Ka	Mosquito	蚊	か	カ	fly
+Kouchuu	Besouro	甲虫	こうちゅう	コウチュウ	beetle
+Inago	Gafanhoto	蝗	いなご	イナゴ	grasshopper
+Araiguma	Guaxinin	荒熊	あらいうま	アライグマ	Guaxinin
+Hotaru	Vaga-Lume	蛍	ほたる	ホタル	Firefly
+Hae	Mosca	蝿	はえ	ハエ	fly
+senzankou	pangolim (tatu bola)	穿山甲	せんざんこう	センザンコウ	pangolin
 
 Baleia
 kujira 鯨
