@@ -12,7 +12,7 @@ export default function CardColor() {
             <ContainerCardSokuon>
                 {iro.map((iro) => (
 
-                    <CardC key={iro.id} HIRAGANA={iro.hiragana} img={iro.img} />
+                    <CardC key={iro.id} HIRAGANA={iro.hiragana} img={iro.img} ESC={iro.romaji}/>
                 ))}
 
             </ContainerCardSokuon>
