@@ -15,6 +15,7 @@ import Cards from "../pages/gameCards/index.jsx";
 import CardProf from "../pages/CardProf";
 import CardAnimal from "../pages/CardAnimals";
 import CardRoupas from "../pages/CardRoupas";
+import CardEstacoes from "../pages/CardEstacoes";
 
 const Rotas = () => (
   <Layout>
@@ -27,6 +28,7 @@ const Rotas = () => (
       <Route path="/profession" element={<CardProf />} />
       <Route path="/animals" element={<CardAnimal />} />
       <Route path="/roupas" element={<CardRoupas />} />
+      <Route path="/estacoes" element={<CardEstacoes />}></Route>
       <Route path="/game" element={<MemoryGame />} />
       <Route path="/particula" element={<Particulas />}></Route>
       <Route path="/particula-game" element={<ParticulaGame />}></Route>

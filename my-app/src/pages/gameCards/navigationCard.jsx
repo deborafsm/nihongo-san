@@ -6,6 +6,7 @@ import viagem from "../../img/viagem-de-negocios.png";
 import emergencia from "../../img/ligacao-de-emergencia.png";
 import animal from "../../img/animais/leao_button.png";
 import roupa from "../../img/roupas/camiseta.png";
+import estacao from "../../img/estacoes_clima/climate.png";
 
 // id,route,img
 
@@ -39,6 +40,14 @@ export const navigationCard = [
     route: "/roupas",
     img: roupa,
     pt: "Roupas",
+    name: "Fuku ",
+    esc: "服",
+  },
+  {
+    id: "5",
+    route: "/estacoes",
+    img: estacao,
+    pt: "Estacoes",
     name: "Fuku ",
     esc: "服",
   },
