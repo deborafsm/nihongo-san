@@ -4,6 +4,62 @@
 4 - Cores 
 5 - Jogo da Memoria
 6 - Particulas 
+
+
+Português	Japonês	Romanização
+Ar	空気	kuuki
+Areia	砂	suna
+Água	水	mizu
+Árvore	木	ki
+Campo	畑	hatake
+Cascata	滝	taki
+Caverna	洞窟	doukutsu
+Chuva	雨	ame
+Colina / Monte	丘	oka
+Céu	空	sora
+Espaço / Universo / Cosmos	宇宙	uchuu
+Estrela	星	hoshi
+Flor	草花	kusabana
+Flor	花	hana
+Floresta (Maior)	森	mori
+Floresta	林	hayashi
+Folha	葉	ha
+Folhas	葉っぱ	happa
+Fonte termal	温泉	onsen
+Fonte	泉	izumi
+Galho	小枝	koeda
+Grama	草	kusa
+Ilha	島	shima
+Lago	湖	mizuumi
+Lagoa	池	ike
+Lama	泥	doro
+Lua	月	tsuki
+Mar	海	umi
+Montanha	山	yama
+Monte	小山	koyama
+Musgu	苔	koke
+Natureza	自然	shizen
+Neve	雪	yuki
+Nuvem	雲	kumo
+Onda	波	nami
+Pedra	石	ishi
+Penhasco	崖	gake
+Poço de água	井/井戸	i/ido
+Ramo, Galha	枝	eda
+Rio / Corrente	川/河	kawa
+Rocha / Penhasco	岩	iwa
+Sol	お日様	ohisama
+Sol	太陽	taiyou
+Terra / Solo	土	tsuchi
+Terremoto	地震	jishin
+Trovão	雷	kaminari
+Tsunami	津波	tsunami
+Vale	谷	tani
+Vento	風	kaze
+Vulcão	火山	kazan
+
+
+
 Português	Kanji	Kana	Rōmaji
 Chapéu	帽子	ぼうし	bōshi
 Brincos	...	ピアス	piasu
