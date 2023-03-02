@@ -37,4 +37,28 @@ export const estacoes = [
     kanji: "冬",
     img: inverno,
   },
+  {
+    id: "5",
+    pt: "Chuva",
+    jpn: "ame",
+    esc: "",
+    kanji: "雨",
+    img: chuva,
+  },
+  {
+    id: "6",
+    pt: "Chuva",
+    jpn: "ohisama",
+    esc: "",
+    kanji: "お日様",
+    img: sol,
+  },
+  {
+    id: "7",
+    pt: "Chuva",
+    jpn: "yuki",
+    esc: "",
+    kanji: "雪",
+    img: neve,
+  },
 ]
