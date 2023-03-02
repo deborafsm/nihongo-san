@@ -12,6 +12,7 @@ export default function CardEstacoes() {
           <CardC
             ESC={estacao.kanji}
             PTB={estacao.pt}
+             HIRAGANA={estacao.jpn}
             img={estacao.img}
             key={estacao.id}
           ></CardC>

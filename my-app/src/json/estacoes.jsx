@@ -3,6 +3,24 @@ import primavera from "../img/estacoes_clima/primavera.png";
 import verao from "../img/estacoes_clima/verao.png";
 import outono from "../img/estacoes_clima/outono.png";
 import inverno from "../img/estacoes_clima/inverno.png";
+import chuva from "../img/estacoes_clima/chuva.png";
+import sol from "../img/estacoes_clima/sol.png";
+import neve from "../img/estacoes_clima/neve.png";
+import trovao from "../img/estacoes_clima/trovao.png";
+import mar from "../img/estacoes_clima/mar.png";
+import montanha from "../img/estacoes_clima/montanha.png";
+import monte from "../img/estacoes_clima/monte.png";
+import lua from "../img/estacoes_clima/lua.png";
+import lago from "../img/estacoes_clima/lago.png";
+import floresta_m from "../img/estacoes_clima/floresta_m.png";
+import floresta from "../img/estacoes_clima/floresta.png";
+import ceu from "../img/estacoes_clima/ceu.png";
+import arvore from "../img/estacoes_clima/arvore.png";
+import areia from "../img/estacoes_clima/areia.png";
+import ar from "../img/estacoes_clima/ar.png";
+import estrela from "../img/estacoes_clima/estrela.png";
+import flor from "../img/estacoes_clima/flor.png";
+import rio from "../img/estacoes_clima/rio.png";
 
 export const estacoes = [
   {
@@ -47,7 +65,7 @@ export const estacoes = [
   },
   {
     id: "6",
-    pt: "Chuva",
+    pt: "Sol",
     jpn: "ohisama",
     esc: "",
     kanji: "お日様",
@@ -55,7 +73,7 @@ export const estacoes = [
   },
   {
     id: "7",
-    pt: "Chuva",
+    pt: "Neve",
     jpn: "yuki",
     esc: "",
     kanji: "雪",
