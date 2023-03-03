@@ -3,10 +3,12 @@ import CardC from "../components/Cards/CardMain";
 import { ContainerCard } from "../style/CardPage";
 import { estacoes } from "../json/estacoes";
 import Title from "../components/Title";
+import Button from "../components/Button";
 export default function CardEstacoes() {
   return (
     <>
-      <Title text="Estações"></Title>
+      <Button></Button>
+      {/* <Title text="Estações"></Title> */}
       <ContainerCard>
         {estacoes.map((estacao) => (
           <CardC
