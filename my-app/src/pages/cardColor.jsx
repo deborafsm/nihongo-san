@@ -8,8 +8,10 @@ import iro from "../json/iro.json";
 export default function CardColor() {
   return (
     <>
-      <Button></Button>
-      <Title text="いろ" />
+      <div className="container-title">
+        <Title text="いろ" />
+        <Button></Button>
+      </div>
 
       <ContainerCardSokuon>
         {iro.map((iro) => (

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     
@@ -19,5 +19,13 @@ export default createGlobalStyle`
     }
     button {
         cursor: pointer;
+    }
+    .container-title{
+        display: flex;
+        align-items: center;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+}
     }
 `;
