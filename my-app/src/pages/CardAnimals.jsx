@@ -7,8 +7,10 @@ import Button from "../components/Button";
 export default function CardAnimals() {
   return (
     <>
-      <Button></Button>
-      <Title text="Animais"></Title>
+      <div className="container-title">
+        <Title text="Animais"></Title>
+        <Button></Button>
+      </div>
       <ContainerCardSokuon>
         {animais.map((animal) => (
           <Card

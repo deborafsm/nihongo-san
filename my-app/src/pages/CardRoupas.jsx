@@ -6,8 +6,10 @@ import Button from "../components/Button";
 export default function CardRoupas() {
   return (
     <div>
-      <Button></Button>
-      <Title text="Roupas"></Title>
+      <div className="container-title">
+        <Title text="Roupas"></Title>
+        <Button></Button>
+      </div>
       {roupas.map((roupa) => (
         <Card
           key={roupa.id}

@@ -7,8 +7,10 @@ import Button from "../components/Button";
 export default function CardEstacoes() {
   return (
     <>
-      <Button></Button>
-      <Title text="Estações"></Title>
+      <div className="container-title">
+        <Title text="Estações"></Title>
+        <Button></Button>
+      </div>
       <ContainerCard>
         {estacoes.map((estacao) => (
           <CardC

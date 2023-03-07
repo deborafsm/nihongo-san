@@ -7,8 +7,10 @@ import Button from "../components/Button";
 export default function CardProf() {
   return (
     <>
-      <Button></Button>
-      <Title text="Profissões"></Title>
+      <div className="container-title">
+        <Title text="Profissões"></Title>
+        <Button></Button>
+      </div>
       <ContainerCardSokuon>
         {profession.map((profession) => (
           <Card
